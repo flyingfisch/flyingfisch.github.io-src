@@ -8,6 +8,11 @@ url: "http://flyingfisch.github.io"
 twitter_username: flyingfisch_
 github_username:  flyingfisch
 
+destination: "../flyingfisch.github.io/"
+exclude: ["README.md"]
+keep_files: ["README.md"]
+
+
 # Build settings
 markdown: kramdown
 
