@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Using REST Inside Programs</title>
+    <meta name="description" content="My personal blog where I post about programming as well as other topics.
+">
+
+    <script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.viewport.js"></script>
+    <script type="text/javascript" src="/js/prism.js"></script>
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://flyingfisch.github.io/programming/web/2015/05/17/using-rest-internally.html">
+</head>
+
+
+    <body>
+
+        <header>
+    <a href="/"><h1>Expositus</h1></a>
+
+    <nav>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+        
+    </nav>
+</header>
+
+
+
+        <nav class="article"></nav>
+
+<article lang="en" class="post">
+    <div class="post-info">
+        <strong>Author:</strong> Mark Fischer, Jr.<br>
+
+        <strong>Posted:</strong> May 17, 2015<br>
+
+        
+        
+        <strong>Tags:</strong> programming, web<br>
+        
+
+        
+    </div>
+
+    <h1 class="post-title">Using REST Inside Programs</h1>
+    <p>Rich Hickey proposed an interesting idea in his <a href="https://www.youtube.com/watch?v=rI8tNMsozo0">keynote at RailsConf 2012</a>.
+The idea, if I understand correctly, is that if serialization is good between
+servers as a way to separate concerns, then why don’t we do it between different
+sections of code on the same server?</p>
+
+<p>Using REST between different code blocks seems like a good idea, but serialization seems a bit useless
+in my humble opinion, since it only seems to add complexity to the program.</p>
+
+<p>I decided to write a little <a href="https://github.com/flyingfisch/python-rest-poc/commits?author=flyingfisch">proof-of-concept</a> for this program in Python.
+There is a module <code>rest.py</code> which currently contains one class: <code>CRUD</code>. <code>CRUD</code>
+has four built-in functions: <code>create()</code>, <code>read()</code>, <code>update()</code>, and <code>delete()</code>.</p>
+
+<p>Here is the documentation for each of the built-in functions:</p>
+
+<pre><code class="language-python">create(object)
+"""
+Creates a new object.
+
+Keyword arguments:
+object -- Object or list of objects to create
+"""
+
+read()
+"""Returns a list of created objects."""
+
+update(objectId, object)
+"""
+Updates object.
+
+Keyword arguments:
+objectId -- Key of object to update
+object -- Object to update with
+"""
+
+delete(objectId)
+"""
+Deletes object from list.
+
+Keyword arguments:
+objectId -- Key of object to delete
+"""
+</code></pre>
+
+<p>The built-in commands operate on an internal list <code>_objects</code>, accessible through
+<code>read()</code>. Here is a simple example using the default methods.</p>
+
+<pre><code class="language-python">from rest import CRUD
+
+# A dictionary entry class
+class DictEntry:
+    Word = ""
+    Definition = ""
+
+    def __init__(self, word, definition):
+        self.Word = word
+        self.Definition = definition
+
+    def __repr__(self):
+        return "(Word: {0}, Definition: {1})".format(self.Word, self.Definition)
+
+# Make a CRUD instance
+Dictionary = CRUD()
+
+# Add a word to our dictionary
+Dictionary.create(DictEntry("Programmer", "A being that converts pizza and Coke into crde"))
+
+# Update the word
+Dictionary.Update(0, DictEntry("Programmer", "A being that converts pizza and Coke into code")
+
+# Print the dictionary out to the terminal
+print(Dictionary.read())
+
+# Delete the word
+Dictionary.Delete(0)
+
+# Print the (empty) dictionary out to the terminal
+print(Dictionary.read())
+</code></pre>
+
+<p>Not sure how useful this is going to be, but it was fun to code up!</p>
+
+
+</article>
+
+<section id="comments" class="center">
+    <h1 class="post-title">Comments</h1>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        // Required: on line below, replace text in quotes with your forum shortname
+        var disqus_shortname = 'expositus';
+        var diqus_identifier = 'UsingRESTInsidePrograms';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section>
+
+
+<script type="text/javascript" src="/js/post-nav.js"></script>
+
+
+
+        <footer>
+    <p>My personal blog where I post about programming as well as other topics.
+</p>
+
+    <p>
+        <a href="mailto:flyingfisch@toppagedesign.com">flyingfisch@toppagedesign.com</a> |
+        <a href="https://github.com/flyingfisch">GitHub</a> |
+        <a href="https://twitter.com/flyingfisch_">Twitter</a>
+    </p>
+
+</footer>
+<p class="rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a></p>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,37 @@
+# Site settings
+title: "Expositus"
+email: flyingfisch@toppagedesign.com
+description: >
+  My personal blog where I post about programming as well as other topics.
+baseurl: ""
+url: "http://flyingfisch.github.io"
+twitter_username: flyingfisch_
+github_username:  flyingfisch
+
+# Build settings
+markdown: kramdown
+
+redcarpet:
+    extensions: [fenced_code_blocks]
+
+kramdown:
+    auto_ids: true
+
+#highlighter: true
+paginate: 3
+
+# Default YAML Front Matter
+defaults:
+  -
+    scope:
+        path: "" # ever little thang
+    values:
+        author: Mark Fischer, Jr.
+
+# gems
+gems: [jekyll_figure]
+
+figures:
+    dir: /assets/figures
+    enumerate: true
+

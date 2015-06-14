@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Building a Modern Website: Part 0</title>
+    <meta name="description" content="My personal blog where I post about programming as well as other topics.
+">
+
+    <script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.viewport.js"></script>
+    <script type="text/javascript" src="/js/prism.js"></script>
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://flyingfisch.github.io/frontend/design/tutorial/modern-website-series/2015/05/25/building-a-modern-website-part-0.html">
+</head>
+
+
+    <body>
+
+        <header>
+    <a href="/"><h1>Expositus</h1></a>
+
+    <nav>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+        
+    </nav>
+</header>
+
+
+
+        <nav class="article"></nav>
+
+<article lang="en" class="post">
+    <div class="post-info">
+        <strong>Author:</strong> Mark Fischer, Jr.<br>
+
+        <strong>Posted:</strong> May 25, 2015<br>
+
+        
+        
+        <strong>Tags:</strong> frontend, design, tutorial, modern-website-series<br>
+        
+
+        
+    </div>
+
+    <h1 class="post-title">Building a Modern Website: Part 0</h1>
+    <p>This is the first of a 3-post series on building a modern website. The demo website is a fictional sailing club’s homepage. This post covers the mockup process and building the header. The next part will go into the navigation bar and body text.</p>
+
+<h1 id="layout">Layout</h1>
+
+<p>The first thing I do when building a website is come up with a layout. For this site I thought we would keep the layout fairly minimal. I don’t generally build wireframes, preferring building in the browser instead, but I whipped one up in this case to let you see what kind of layout I am envisioning.</p>
+
+<figure>
+<img src="/assets/nautical-wireframe.svg" alt="Wireframe for desktop layout" />
+<figcaption>Wireframe for desktop layout.</figcaption>
+</figure>
+
+<p>Since this is going to be responsive, we need to have a mobile layout as well.</p>
+
+<figure>
+<img src="/assets/nautical-wireframe-mobile.svg" alt="Wireframe for mobile layout" />
+<figcaption>Wireframe for mobile layout.</figcaption>
+</figure>
+
+<h1 id="colors">Colors</h1>
+
+<p>The colors for this site are going to be blue and white. I got the exact shades straight from the <a href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette">Tango project’s color palette</a>.</p>
+
+<figure>
+<img src="/assets/nautical-palette.svg" alt="Palette colors: #ffffff, #eeeeec, #3465a4, #204a87" />
+<figcaption>Colors: #ffffff, #eeeeec, #3465a4, #204a87</figcaption>
+</figure>
+
+<h1 id="fonts">Fonts</h1>
+
+<p>The first thing I like to do before actually designing the site is find a font to use. For this project I just ran over to <a href="https://www.google.com/fonts/">Google Fonts</a> and chose Montserrat for the headers and Alegreya for the copy. As a rule of thumb it is usually good to choose a serif font for your body text if the headers are sans-serif, and vice versa.</p>
+
+<p>Here is the <code>link</code> tag for the fonts, we’re just going to add it into the header. Although there are other methods of using Google Fonts, the <code>link</code> tag has the best browser support.</p>
+
+<pre><code class="language-markup">&lt;link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css"&gt;
+</code></pre>
+
+<p>We will also be using <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> which basically gives you a starting point that looks the same across all browsers. Since we want to override it’s styles with ours we put it’s link tag first. Our <code>head</code> tag should look something like this now:</p>
+
+<pre><code class="language-markup">&lt;head&gt;
+    &lt;title&gt;R. S. Sailing Club&lt;/title&gt;
+
+    &lt;link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css"&gt;
+    &lt;link href="/css/normalize.css" rel="stylesheet" type="text/css"&gt;
+    &lt;link href="/css/style.css" rel="stylesheet" type="text/css"&gt;
+&lt;/head&gt;
+</code></pre>
+
+<p>We’re going to be using <a href="http://sass-lang.com/">SASS</a> for the stylesheets, but don’t worry, I’ll explain any nuances we come across in the project. For now, just think of it as CSS with extra features. Here is our stylesheet so far:</p>
+
+<pre><code class="language-scss">html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+</code></pre>
+
+<h1 id="designing-the-header">Designing the header</h1>
+
+<p>Now that the fonts have been selected, we can start on the header. The markup for now is pretty simple.</p>
+
+<pre><code class="language-markup">&lt;header&gt;
+    &lt;h1&gt;R. S. Sailing Club&lt;/h1&gt;
+&lt;/header&gt;
+</code></pre>
+
+<p>Now let’s get into the CSS. We want the background of the header to be dark blue, and the font should be white. Here is the site so far:</p>
+
+<p data-height="268" data-theme-id="6851" data-slug-hash="eNdaoe" data-default-tab="result" data-user="flyingfisch" class="codepen">See the Pen <a href="http://codepen.io/flyingfisch/pen/eNdaoe/">eNdaoe</a> by flyingfisch (<a href="http://codepen.io/flyingfisch">@flyingfisch</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<h1 id="sass-101">SASS 101</h1>
+
+<p>This is probably a good time to go over a couple important SASS features: variables and nested selectors.</p>
+
+<h2 id="variables">Variables</h2>
+
+<p>Variables names start with a <code>$</code>, and can contain any information you can put in a property. For example:</p>
+
+<pre><code class="language-scss">$my-border: 2px solid black;
+
+div {
+    border: $my-border;
+}
+</code></pre>
+
+<p>That compiles to this CSS:</p>
+
+<pre><code class="language-css">div {
+    border: 2px solid black;
+}
+</code></pre>
+
+<h1 id="nested-selectors">Nested Selectors</h1>
+
+<p>If you want to select an element inside another element, you can nest the selectors. Here is an example:</p>
+
+<pre><code class="language-scss">header {
+    h1 {
+        color: #fff;
+    }
+}
+</code></pre>
+
+<p>This compiles to:</p>
+
+<pre><code class="language-css">header h1 {
+    color: #fff;
+}
+</code></pre>
+
+<p>You can also use the <code>&amp;</code> to select the parent element, like this:</p>
+
+<pre><code class="language-scss">a {
+    color #000;
+    text-decoration: none;
+
+    &amp;:hover {
+        text-decoration: underline;
+    }
+}
+</code></pre>
+
+<p>Which compiles into this CSS:</p>
+
+<pre><code class="language-css">a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</code></pre>
+
+
+</article>
+
+<section id="comments" class="center">
+    <h1 class="post-title">Comments</h1>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        // Required: on line below, replace text in quotes with your forum shortname
+        var disqus_shortname = 'expositus';
+        var diqus_identifier = 'BuildingaModernWebsite:Part0';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section>
+
+
+<script type="text/javascript" src="/js/post-nav.js"></script>
+
+
+
+        <footer>
+    <p>My personal blog where I post about programming as well as other topics.
+</p>
+
+    <p>
+        <a href="mailto:flyingfisch@toppagedesign.com">flyingfisch@toppagedesign.com</a> |
+        <a href="https://github.com/flyingfisch">GitHub</a> |
+        <a href="https://twitter.com/flyingfisch_">Twitter</a>
+    </p>
+
+</footer>
+<p class="rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a></p>
+
+
+    </body>
+
+</html>

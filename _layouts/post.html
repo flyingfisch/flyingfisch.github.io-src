@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<nav class="article"></nav>
+
+<article lang="en" class="post">
+    <div class="post-info">
+        {% if page.author %}<strong>Author:</strong> {{ page.author }}<br>{% endif %}
+
+        <strong>Posted:</strong> {{ page.date | date: "%b %-d, %Y" }}<br>
+
+        {% unless page.categories == empty %}
+        {% comment %}<strong>Tags:</strong> {{ page.categories | category_links }}<br>{% endcomment %}
+        <strong>Tags:</strong> {{ page.categories | join: ', ' }}<br>
+        {% endunless %}
+
+        {% if page.meta %}<strong>Meta:</strong> {{ page.meta }}{% endif %}
+    </div>
+
+    <h1 class="post-title">{{ page.title }}</h1>
+    {{ content }}
+</article>
+
+<section id="comments" class="center">
+    <h1 class="post-title">Comments</h1>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        // Required: on line below, replace text in quotes with your forum shortname
+        var disqus_shortname = 'expositus';
+        var diqus_identifier = '{% if page.disqusid %}{{ page.disqusid }}{% else %}{{ page.title | remove: " " }}{% endif %}';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section>
+
+
+<script type="text/javascript" src="/js/post-nav.js"></script>

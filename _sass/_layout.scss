@@ -1,0 +1,365 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Source+Sans+Pro:400,700,900,400italic,700italic|Source+Code+Pro:400,400italic,700);
+
+@mixin respond-to($media) {
+    @if $media == handhelds {
+        @media only screen and (max-width: 640px) { @content; }
+    }
+    @else if $media == medium-screens {
+        @media only screen and (max-width: 1024px) { @content; }
+    }
+    @else if $media == wide-screens {
+        @media only screen and (min-width: 1024px) { @content; }
+    }
+}
+
+
+$headerFontStack: 'Source Sans Pro', sans-serif;
+$sourceCodeFontStack: 'Source Code Pro', sans-serif;
+$bodyFontStack: 'Merriweather', serif;
+$bodyFontSize: 16px;
+$mobileBodyFontSize: 14px;
+
+$bodyGutter: 15%;
+$bodyWidth: 100% - ($bodyGutter * 2);
+
+$foreground: #222;
+$foreground-highlight: #933;
+$background: #fff;
+$background-highlight: #edc;
+
+$standardBorder: 10px solid ($background - #111);
+
+html * {
+    box-sizing: border-box;
+}
+
+html {
+    background: $background;
+    color: $foreground;
+    font-family: $bodyFontStack;
+    font-size: $bodyFontSize;
+
+    @include respond-to(handhelds) {
+        font-size: $mobileBodyFontSize;
+    }
+}
+
+body {
+    margin: 0 auto;
+}
+
+pre, code {
+    font-family: $sourceCodeFontStack;
+}
+
+pre {
+    margin: 4em 0;
+    background-color: $background;
+    border-top: $standardBorder;
+    border-bottom: $standardBorder;
+    position: relative;
+    z-index: 1;
+
+    code {
+        display: block;
+        position: relative;
+        margin-top: 1.15em;
+        margin-bottom: 1.15em;
+        line-height: 1.7em;
+        z-index: 1;
+    }
+
+    &:after {
+        color: $background-highlight;
+        font-family: $headerFontStack;
+        font-weight: bold;
+        font-size: 8em;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 16px;
+        right: 15px;
+        z-index: 0;
+    }
+}
+pre.language-ruby:after {
+    content: "Ruby";
+}
+
+pre.language-html:after, pre.language-markup:after {
+    content: "HTML";
+}
+
+pre.language-python:after {
+    content: "Python";
+}
+
+pre.language-php:after {
+    content: "PHP";
+}
+
+pre.language-css:after {
+    content: "CSS";
+}
+
+pre.language-scss:after {
+    content: "Sass";
+}
+
+pre.language-haskell:after {
+    content: "Haskell";
+}
+
+pre.language-csharp:after {
+    content: "C#";
+}
+
+pre.language-javascript:after {
+    content: "JS";
+}
+
+article > *, .center {
+    padding: 0 $bodyGutter;
+}
+
+ol, ul {
+    list-style-position: inside;
+    margin-left: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headerFontStack;
+}
+
+h1 {
+    padding-top: 1em;
+    text-transform: uppercase;
+    color: $foreground;
+
+    &:hover .id {
+        opacity: 1;
+    }
+
+    .id {
+        font-size: .5em;
+        color: $foreground-highlight;
+        text-decoration: none;
+        margin-left: .5em;
+
+        transition: 500ms;
+        opacity: 0.2;
+
+        &:before {
+            content: '#';
+        }
+    }
+}
+
+h1.post-title {
+    font-size: 3em;
+    padding-top: .7em;
+}
+
+a {
+    color: $foreground-highlight;
+}
+
+header {
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+
+    &:after, h1 {
+        text-shadow: .1em .05em $background-highlight;
+    }
+
+    &:after {
+        content: "❧";
+        font-size: 2em;
+        display: block;
+        border-bottom: 1px solid $background-highlight;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav {
+        a {
+            text-decoration: none;
+            font-size: .7em;
+            font-weight: bold;
+            color: $foreground;
+            margin: 0 1.2em;
+            white-space: nowrap;
+            character-spacing: 1px;
+
+            @include respond-to(handhelds) {
+                display: block;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+nav.article {
+    text-align: center;
+    position: fixed;
+    //@new right or left? still deciding.
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+    a {
+        color: $foreground;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+article.post {
+    line-height: 2.5em;
+    color: $foreground + #333;
+
+    p {
+        text-align: justify;
+        hyphens: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    > p:first-of-type:not(.normal-font) {
+        &:first-letter {
+            display: block;
+            font-size: 2em;
+            float: left;
+            margin-right: .1em;
+            margin-top: .1em;
+        }
+        &:first-line {
+            font-variant: small-caps;
+        }
+
+        font-size: 1.25em;
+    }
+
+    img {
+        float: left;
+        padding: 0;
+        margin: 1em 2em;
+        max-width: $bodyWidth;
+
+        @include respond-to(handhelds) {
+            display: block;
+            clear: both;
+            float: none;
+        }
+    }
+
+    figure {
+        position: relative;
+        padding: 0;
+        margin: 2em 0;
+        text-align: center;
+
+        img {
+            float: none;
+        }
+
+        figcaption {
+            border-top: $standardBorder;
+            padding-top: .5em;
+            font-size: .7em;
+            text-align: left;
+            line-height: 2em;
+
+            @include respond-to(wide-screens) {
+                position: absolute;
+                top: 0;
+                right: 1%;
+                width: $bodyGutter - 2%;
+            }
+
+            @include respond-to(medium-screens) {
+                width: $bodyWidth;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    // clearfix
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.light {
+    color: lighten($foreground, 70);
+}
+
+.post-info {
+    line-height: 1.9em;
+    font-size: .8em;
+    border-top: $standardBorder;
+    padding-top: 1em;
+    position: relative;
+    z-index: 1;
+
+    @include respond-to(wide-screens) {
+        margin-left: 1%;
+        margin-top: 3em;
+        padding: 0;
+        width: $bodyGutter - 2%;
+        float: left;
+    }
+
+    @include respond-to(medium-screens) {
+        margin-top: 1em;
+    }
+}
+
+blockquote {
+    background-color: $background-highlight;
+    font-size: .9em;
+    margin: 0;
+}
+
+footer {
+    line-height: 2em;
+    margin-top: 8em;
+    text-align: center;
+    color: $foreground + #777;
+
+    & p {
+        padding-left: 1em;
+        position: relative;
+        z-index: 1000;
+        margin-bottom: 1em;
+    }
+
+    &:before {
+        position: relative;
+        z-index: 0;
+        content: 'Expositus';
+        display: block;
+        color: $background-highlight;
+        text-align: center;
+        font-family: $headerFontStack;
+        font-size: 15em;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: .7em;
+        margin-bottom: -.7em;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}

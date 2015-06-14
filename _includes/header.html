@@ -1,0 +1,13 @@
+<header>
+    <a href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
+
+    <nav>
+        {% for page in site.pages %}
+            {% if page.title %}
+                {% unless page.title contains "Category" %}
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
+    </nav>
+</header>
