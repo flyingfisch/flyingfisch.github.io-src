@@ -10,7 +10,7 @@ github_username:  flyingfisch
 
 destination: "../flyingfisch.github.io/"
 exclude: ["README.md"]
-keep_files: ["README.md"]
+keep_files: ["README.md", ".git"]
 
 
 # Build settings

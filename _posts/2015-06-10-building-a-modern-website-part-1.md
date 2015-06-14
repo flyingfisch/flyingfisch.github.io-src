@@ -5,7 +5,7 @@ date: 2015-06-10
 categories: frontend design tutorial modern-website-series
 ---
 
-This is the second of a 3-post series on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the navigation bar and body text. The last part will go over the footer and finishing touches. This is what the site looked like at the end of the last post:
+This is the second of a [3-post series](/modern-website-series/) on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the navigation bar and body text. The last part will go over the footer and finishing touches. This is what the site looked like at the end of the last post:
 
 <p data-height="150" data-theme-id="6851" data-slug-hash="eNdaoe" data-default-tab="result" data-user="flyingfisch" class='codepen'>See the Pen <a href='http://codepen.io/flyingfisch/pen/eNdaoe/'>eNdaoe</a> by flyingfisch (<a href='http://codepen.io/flyingfisch'>@flyingfisch</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

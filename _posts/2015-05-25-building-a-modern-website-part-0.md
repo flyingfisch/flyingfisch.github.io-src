@@ -5,7 +5,7 @@ date: 2015-05-25
 categories: frontend design tutorial modern-website-series
 ---
 
-This is the first of a 3-post series on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the mockup process and building the header. The next part will go into the navigation bar and body text.
+This is the first of a [3-post series](/modern-website-series/) series on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the mockup process and building the header. The next part will go into the navigation bar and body text.
 
 # Layout
 
