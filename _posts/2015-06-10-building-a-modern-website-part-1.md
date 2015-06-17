@@ -24,15 +24,16 @@ The way we are going to do the navigation bar is putting the links in an unorder
 </ul>
 ~~~
 
-> ##Update
->
-> At the time of writing I forgot, but the `ul` element should be within a `nav` to make it more semantic, like this:
->
-> ~~~markup
-> <nav>
->     <ul>
->          <li>...</li>
-> ~~~
+<aside>
+<h2 id="update">Update</h2>
+
+<p>At the time of writing I forgot, but the <code>ul</code> element should be within a <code>nav</code> to make it more semantic, like this:</p>
+
+<pre><code class="language-markup">&lt;nav&gt;
+    &lt;ul&gt;
+         &lt;li&gt;...&lt;/li&gt;
+</code></pre>
+</aside>
 
 Now we have to style it. The first thing we'll do is get rid of the bullets, margin and the padding.
 

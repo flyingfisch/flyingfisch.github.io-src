@@ -208,6 +208,15 @@ header {
     }
 }
 
+aside {
+    background-color: $background-highlight;
+    font-style: italic;
+
+    pre {
+        font-style: normal;
+    }
+}
+
 nav.article {
     text-align: center;
     position: fixed;
