@@ -164,12 +164,15 @@ a {
 }
 
 header {
+    background-image: url("https://download.unsplash.com/photo-1432821596592-e2c18b78144f");
+    background-size: cover;
     overflow: hidden;
     text-align: center;
     font-size: 2em;
 
     &:after, h1 {
-        text-shadow: .1em .05em $background-highlight;
+        color: $background-highlight;
+        text-shadow: .1em .05em $foreground;
     }
 
     &:after {
