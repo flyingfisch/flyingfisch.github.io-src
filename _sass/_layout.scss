@@ -173,7 +173,7 @@ header {
 
     &:after, h1 {
         //color: $background-highlight;
-        text-shadow: .1em .05em lighten($foreground-highlight, 10%);
+        //text-shadow: .1em .05em $foreground;
     }
 
     &:after {
