@@ -165,7 +165,7 @@ a {
 
 header {
     //background-image: url("https://download.unsplash.com/photo-1432821596592-e2c18b78144f");
-    background-image: url("https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf");
+    background-image: url("/assets/bg.jpg");
     background-size: cover;
     overflow: hidden;
     text-align: center;
@@ -173,7 +173,7 @@ header {
 
     &:after, h1 {
         //color: $background-highlight;
-        //text-shadow: .1em .05em $foreground;
+        text-shadow: .1em .05em lighten($foreground-highlight, 10%);
     }
 
     &:after {
