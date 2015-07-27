@@ -252,17 +252,15 @@ article.post {
 
     > p:first-of-type:not(.normal-font) {
         &:first-letter {
-            display: block;
             font-size: 2em;
-            float: left;
-            margin-right: .1em;
-            margin-top: .1em;
+            vertical-align: middle;
         }
         &:first-line {
             font-variant: small-caps;
+            font-size: 1.25em;
         }
 
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
 
     img {
@@ -345,7 +343,27 @@ article.post {
 blockquote {
     background-color: $background-highlight;
     font-size: .9em;
+    line-height: 2em;
     margin: 0;
+
+    &::before, &::after {
+        color: $foreground-highlight;
+        display: block;
+        font-size: 3em;
+        text-align: center;
+        width: 100%;
+    }
+
+    &::before {
+        content: '“';
+        height: .5em;
+    }
+
+    &::after {
+        content: '”';
+        top: .65em;
+        position: relative;
+    }
 }
 
 footer {
