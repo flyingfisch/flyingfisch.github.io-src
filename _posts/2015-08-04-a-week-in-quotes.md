@@ -10,7 +10,7 @@ This past week I have been making one [codepen a day](http://codepen.io/collecti
 <p data-height="391" data-theme-id="6851" data-slug-hash="XbOmwQ" data-default-tab="result" data-user="flyingfisch" class='codepen'>See the Pen <a href='http://codepen.io/flyingfisch/pen/XbOmwQ/'>Quote of the Day - Day 6 (Antoine de Saint-Exupery)</a> by Mark Fischer, Jr (<a href='http://codepen.io/flyingfisch'>@flyingfisch</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-The most challenging part, and the part that spawned the whole thing, were the lines on each side of the quotation marks. Actually, I should say _line_, but we'll get to that in a moment. The first thing you have to do is make the line. This is easy enough, we just add `border-bottom` like so:
+The most challenging part, and the part that spawned the whole thing, were the lines on each side of the quotation marks. The first thing you have to do is make the line. This is easy enough, we just add `border-bottom` like so:
 
 ~~~scss
 blockquote {
@@ -20,7 +20,7 @@ blockquote {
 }
 ~~~
 
-Next, we need that line to go behind our `::before` element. We can do this by making the height of the element half of the height of the letters, best way to do that is with `0.5em`
+Next, we need that line to go behind our `::before` element. We can do this by making the height of the element half of the height of the letters, the best way to do that is with `0.5em`.
 
 ~~~scss
 blockquote {
