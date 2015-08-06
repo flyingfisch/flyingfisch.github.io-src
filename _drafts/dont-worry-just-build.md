@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Don't Worry, Just Build"
+title: "Don't Worry, Just Code"
 date: 2015-08-04
 categories: culture programming
 ---
 
 Use [this chart](http://lifehacker.com/this-graphic-helps-you-pick-your-first-programming-lang-1719213677) to decide your first programming language. Hey, come back! I was just making a point. Hello?
 
-# You don't learn one language only
-
 For those of you who stayed, charts like this are just about the worst way to choose a programming language. The problem with charts like these is that they imply that the first language you learn is the only one you will ever be good at. This simply is not true.
+
+# My Saga
+
+_If you don't want to read the long personal story of my relationship with programming, you can take the elevator [another floor down](#Its-easy-to-learn-new-languages)._ 
 
 <figure>
 <img src="{% asset_path fx9750gii.jpeg %}" alt="Casio fx-9750GII">
@@ -32,9 +34,18 @@ This wasn't the end though, because a couple weeks later I came across a thread 
 
 And then I dove into Lua. I wrote sh'mups. I made some obstacle dodging games. I wrote a couple libraries to help other developers who came my way. Life was good.
 
-Until Casio released the [PRIZM](http://www.casioeducation.com/prizm). It had colors! I had to have one, but I knew no one would justify $99 on another calculator when the one I had was working just fine. And then it happened. Casio started a promotion where they gave away free PRIZM's to people who finished their online training course. I took the course, and a week later my beautiful PRIZM was waiting for me in the mailbox.
+Until Casio released the [PRIZM](http://www.casioeducation.com/prizm). It had colors! I had to have one, but I knew no one would justify $99 on another calculator when the one I had was working just fine. And then it happened. Casio started a promotion where they gave away free PRIZM's to people who finished their online training course. I took the course, and a week later my beautiful PRIZM was waiting for me in the mailbox. So I delved deep into the inner workings of the PRIZM, managing to brick three of them in two years before Casio got suspicious and stopped sending replacements (though I hadn't voided my warranty).
 
-The bad news was that Casio was not going to release an SDK for the PRIZM. The good news was that a third-party SDK was provided by the community. The best news was that a third-party Lua port was already in the works, and by the time my PRIZM arrived the first release was already available. So I delved deep into the inner workings of the PRIZM, managing to brick three of them before Casio got suspicious and stopped sending replacements (though I hadn't voided my warranty).
+Around the same time one of my dad's friends wanted a website built for his company and my dad asked if I wanted to try building one for him. I took that offer and spent two months learning HTML and CSS, as well as GIMP and Inkscape so I could make the background image. The website I made [looked somewhat crude](https://web.archive.org/web/20120625182415/http://www.atgworldwide.us/), but  the my dad's friend liked it and I was proud of it.
 
+I spent my free time in the next couple years experimenting with web programming, and hacking on my calculator, eventually starting [a blog](http://casio.clrhome.org/) to try to help other people learn to program their calculators as well. The experience with the blog got me into web development, and I ended up freelancing during my last two high school summers. I built a website in vanilla PHP for converting PNG images to sprites that calculators could understand and then uploading them to share, in the process learning about open source licenses, filetype validation, and basic hacking techniques like SQL injection. That experience led me to [Laravel](http://laravel.com/), an excellent MVC framework written in PHP which allowed me to write much more organized and safe code.
+
+The summer following learning Laravel, I decided to challenge myself by learning Haskell, which I had heard would help me thing about coding problems in a different way. Boy, did it. It took me a long time to learn, not only because it is a completely different paradigm, but because I was my first real experience with a statically typed language since C.
+
+In the end I had a pretty satisfying sense of accomplishment, and I wondered if I had learned enough to be able to make it into the world of professional programmers, so I wrote up a resumé, took a look around, and applied for a couple of junior web developer positions, not really expecting anything to happen since I was less than a year out of high school. But then a couple days later I got a couple phone interviews, then face-to-face interviews, and ended up starting at [Panther](http://pantherpremium.com/) about a month later, even though they develop exclusively in C#, and I was very open about the fact that I hadn't touched the language at all.
+
+The fact of the matter was, I had enough general programming experience to build on that I didn't need to know the language I was going to work in. It took me two weeks to get familiar enough with C# to start working on projects. Which makes a good segway for my next point.
+
+# It's easy to learn new languages.
 
 
