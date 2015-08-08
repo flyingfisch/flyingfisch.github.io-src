@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Don't Worry, Just Code"
+disqusid: "dontworryjustcode1"
 date: 2015-08-04
 categories: culture programming
 ---
