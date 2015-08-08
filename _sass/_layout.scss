@@ -113,6 +113,10 @@ pre.language-csharp:after {
     content: "C#";
 }
 
+pre.language-c:after {
+    content: "C";
+}
+
 pre.language-javascript:after {
     content: "JS";
 }
@@ -240,7 +244,7 @@ nav.article {
 }
 
 article.post {
-    line-height: 2.5em;
+    line-height: 2.1rem;
     color: $foreground + #333;
 
     p {
@@ -345,6 +349,17 @@ blockquote {
     font-size: .9em;
     line-height: 2em;
     margin: 0;
+
+    &.pull-quote {
+        font-size: 2em;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+
+        &::before, &::after {
+            content: none;
+        }
+    }
 
     &::before, &::after {
         color: $foreground-highlight;
