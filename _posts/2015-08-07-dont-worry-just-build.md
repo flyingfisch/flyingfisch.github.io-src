@@ -109,11 +109,11 @@ When starting out in programming, you can't know what you don't know. A man who 
 
 The idea that the language you code in is a major factor in the amount of money you make is also somewhat absurd. The first problem is that those are average salaries -- a great PHP developer can make more at Facebook than a Python developer is going to make writing one-off scripts at a small business (not a far-fetched example either, I have a coworker who did just that before switching to C#).
 
-The application you write code for is actually more related to your salary than the language you are coding in. Writing guidance systems C or Ada for NASA, or fly-by-wire systems in FORTRAN for General Dynamics is going to be a higher paying job than designing websites for small companies in Ruby on Rails. That said, your expertise may be in animations and interface design instead of the more technical side of programming. This is absolutely fine. Persue what you enjoy, not just what seems more lucrative.
+The application you write code for is actually more related to your salary than the language you are coding in. Writing guidance systems in Ada at NASA or fly-by-wire systems in FORTRAN for General Dynamics is going to be more lucrative than designing websites for small companies in Ruby on Rails. That said, your expertise may be in animations and interface design instead of the more technical side of programming. This is absolutely fine. Persue what you enjoy, not just what seems more lucrative.
 
 # No one remembers you for your code
 
-One last point before wrapping up (promise!): no one is going to remember you for the language you programmed in. What they will remember is the products you build. No one is going to remember Mark Zuckerberg because he was a PHP whiz, they'll remember him because he built Facebook. No one remembers Linus Torvalds for his C, they remember him for Linux.
+One last point before wrapping up (promise!): no one is going to remember you for the language you programmed in, but they _will_ remember the products you build. No one is going to remember Mark Zuckerberg because he was a PHP whiz, they'll remember him for Facebook.
 
 <blockquote class="pull-quote">
 Don't worry about languages, go build awesome stuff!
