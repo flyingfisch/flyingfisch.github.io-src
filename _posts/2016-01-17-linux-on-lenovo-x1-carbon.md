@@ -9,7 +9,7 @@ I bought a Lenovo X1 Carbon (3rd Generation) to replace my old low-end Toshiba S
 
 # Disassembly
 
-The X1 version I purchased was came with the i5 processor, WQHD touchscreen, 8GB of RAM, and a Crucial 256GB SSD, which I replaced with a 500GB SSD. Disassembly was very straightforward, there are 7 screws on the bottom which you remove, and the bottom cover comes right off. When reassembling, the bottom cover may not rest flush with the bottom of the laptop before you tighten the screws. Just go ahead and tighten the screws, if you try to press the cover down to make it flush you will only cause issues when trying to tighten the screws. I am documenting this here since none of the tutorials I saw mentioned it.
+The X1 version I purchased was came with the i5 processor, WQHD touchscreen, 8GB of RAM, and a 256GB SSD, which I replaced with a Crucial 500GB SSD. Disassembly was very straightforward, there are 7 screws on the bottom which you remove, and the bottom cover comes right off. When reassembling, the bottom cover may not rest flush with the bottom of the laptop before you tighten the screws. Just go ahead and tighten the screws, if you try to press the cover down to make it flush you will only cause issues when trying to tighten the screws. I am documenting this here since none of the tutorials I saw mentioned it.
 
 # Installing Linux
 
