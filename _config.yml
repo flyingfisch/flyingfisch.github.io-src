@@ -39,4 +39,3 @@ gems: [jekyll_figure]
 figures:
     dir: /assets/figures
     enumerate: true
-
