@@ -21,11 +21,11 @@ Driver support is excellent, though I never did get the fingerprint reader worki
 
 Installing Cinnamon was pretty easy, these three commands did the trick for me:
 
-```
+~~~
 $ sudo add-apt-repository ppa:tsvetko.tsvetkov/cinnamon
 $ sudo apt-get update
 $ sudo apt-get install cinnamon
-```
+~~~
 
 Although Cinnamon comes with a scaling mode, you can only switch between 1x and 2x GUI scaling. My screen's DPI isn't quite high enough for 2x, though it is high enough that at 1x the fonts were too small to read easily. I was able to solve this by changing the font scale to 1.2. The default height for the Cinnamon panel seemed small as well, so I made it taller.
 
@@ -38,3 +38,4 @@ Although Cinnamon comes with a scaling mode, you can only switch between 1x and 
 
 * Battery life on Windows was about 8 hours, and on Linux it was about 5 hours. I was able to increase it to 8 by installing TLP using the [installation instructions on their site](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html#installation).
 * I found [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu) helpful for installing the LAMP stack.
+
