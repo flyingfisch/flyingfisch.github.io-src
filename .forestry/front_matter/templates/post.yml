@@ -5,8 +5,12 @@ fields:
   config:
     source:
       type: simple
+    options:
+    - post
+    - page
   label: Layout
   name: layout
+  default: post
 - type: text
   name: title
   label: Title
