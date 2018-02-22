@@ -10,7 +10,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: Invalid date
 - name: categories
   label: Categories
   type: tag_list
@@ -20,9 +20,9 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: author
   label: Author
   type: text
   hidden: false
-  default: ''
+  default: Mark Fischer, Jr.
