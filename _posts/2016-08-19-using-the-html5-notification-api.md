@@ -1,6 +1,6 @@
 ---
 title: Getting started with the HTML5 notification API
-date: 2016-08-19 00:00:00 Z
+date: 2016-08-19 00:00:00 +0000
 categories:
 - javascript
 layout: post
