@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/poetry.md
 hide_body: false
 fields:
 - name: title
