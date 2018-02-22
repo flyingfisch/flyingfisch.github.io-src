@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/forestry-io-test-post.md
 hide_body: false
 fields:
 - name: author
