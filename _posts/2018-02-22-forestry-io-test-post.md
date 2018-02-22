@@ -1,6 +1,6 @@
 ---
 title: test post
-date: 2018-02-22 20:10:00 Z
+date: 2018-02-22 20:10:00 +0000
 categories:
 - test
 author: Mark Fischer, Jr.
