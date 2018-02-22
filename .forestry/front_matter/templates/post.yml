@@ -1,0 +1,20 @@
+---
+hide_body: false
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+  label: Layout
+  name: layout
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+- type: tag_list
+  name: categories
+  label: Categories
