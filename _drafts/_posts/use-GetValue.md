@@ -1,6 +1,6 @@
 ---
 title: A Redis escaping story
-date: 2015-10-31 00:00:00 Z
+date: 2015-10-31 00:00:00 +0000
 categories:
 - bug
 layout: post

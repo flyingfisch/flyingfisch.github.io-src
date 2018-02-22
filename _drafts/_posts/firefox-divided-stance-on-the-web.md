@@ -1,6 +1,6 @@
 ---
 title: Mozilla's Stance on the Web is Divided
-date: 2015-06-26 00:00:00 Z
+date: 2015-06-26 00:00:00 +0000
 categories:
 - culture
 layout: post

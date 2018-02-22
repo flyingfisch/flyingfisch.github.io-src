@@ -1,6 +1,6 @@
 ---
 title: 'FSX Review: L-39C Freeware'
-date: 2016-08-01 00:00:00 Z
+date: 2016-08-01 00:00:00 +0000
 categories:
 - flight-simulator
 - fsx

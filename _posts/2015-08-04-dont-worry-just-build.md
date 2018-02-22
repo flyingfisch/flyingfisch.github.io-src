@@ -1,6 +1,6 @@
 ---
 title: Don't Worry, Just Code
-date: 2015-08-04 00:00:00 Z
+date: 2015-08-04 00:00:00 +0000
 categories:
 - culture
 - programming

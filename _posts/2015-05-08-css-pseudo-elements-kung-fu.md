@@ -1,6 +1,6 @@
 ---
 title: Pseudo-Element Kung-Fu
-date: 2015-05-08 00:00:00 Z
+date: 2015-05-08 00:00:00 +0000
 categories:
 - css
 - programming

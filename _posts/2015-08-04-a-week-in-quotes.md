@@ -1,6 +1,6 @@
 ---
 title: A Week in Quotes
-date: 2015-08-04 00:00:00 Z
+date: 2015-08-04 00:00:00 +0000
 categories:
 - project
 layout: post

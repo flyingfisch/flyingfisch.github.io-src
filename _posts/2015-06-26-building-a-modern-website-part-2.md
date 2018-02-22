@@ -1,6 +1,6 @@
 ---
 title: 'Building a Modern Website: Part 2'
-date: 2015-06-26 00:00:00 Z
+date: 2015-06-26 00:00:00 +0000
 categories:
 - frontend
 - design

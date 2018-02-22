@@ -1,7 +1,7 @@
 ---
 pages:
-- _posts/visual-studio-code.md
 - _posts/2018-02-22-poetry.md
+- _posts/visual-studio-code.md
 hide_body: false
 fields:
 - name: title

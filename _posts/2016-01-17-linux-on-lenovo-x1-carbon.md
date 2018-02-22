@@ -1,6 +1,6 @@
 ---
 title: Setting up Linux on a Lenovo X1 Carbon
-date: 2016-01-17 00:00:00 Z
+date: 2016-01-17 00:00:00 +0000
 categories:
 - linux
 layout: post

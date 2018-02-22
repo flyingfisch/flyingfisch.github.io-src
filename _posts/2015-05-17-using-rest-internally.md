@@ -1,6 +1,6 @@
 ---
 title: Using REST Inside Programs
-date: 2015-05-17 00:00:00 Z
+date: 2015-05-17 00:00:00 +0000
 categories:
 - programming
 - web

@@ -1,6 +1,6 @@
 ---
 title: Announcing Tolkien Ipsum
-date: 2015-05-28 00:00:00 Z
+date: 2015-05-28 00:00:00 +0000
 categories:
 - announcement
 layout: post

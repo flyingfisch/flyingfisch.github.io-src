@@ -1,6 +1,6 @@
 ---
 title: Thoughts on UI
-date: 2015-05-04 00:00:00 Z
+date: 2015-05-04 00:00:00 +0000
 categories:
 - programming
 - frontend

@@ -1,6 +1,6 @@
 ---
 title: Getting neosnippet to work with deoplete
-date: 2016-08-07 00:00:00 Z
+date: 2016-08-07 00:00:00 +0000
 categories:
 - vim
 layout: post
