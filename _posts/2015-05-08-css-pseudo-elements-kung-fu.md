@@ -1,8 +1,11 @@
 ---
+title: Pseudo-Element Kung-Fu
+date: 2015-05-08 00:00:00 Z
+categories:
+- css
+- programming
+- web
 layout: post
-title: "Pseudo-Element Kung-Fu"
-date: 2015-05-08
-categories: css programming web
 ---
 
 I recently found that the `content` property can contain cooler stuff than just

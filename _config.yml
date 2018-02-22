@@ -1,41 +1,40 @@
-# Site settings
-title: "Expositus"
-email: flyingfisch@toppagedesign.com
-description: >
-  My personal blog where I post about programming as well as other topics.
-baseurl: ""
-url: "http://flyingfisch.github.io"
-twitter_username: flyingfisch_
-github_username:  flyingfisch
-
-#destination: "../flyingfisch.github.io/"
-exclude: ["README.md"]
-keep_files: ["README.md", ".git"]
-
-
-# Build settings
-markdown: kramdown
-
-redcarpet:
-    extensions: [fenced_code_blocks]
-
-kramdown:
-    auto_ids: true
-
-#highlighter: true
-paginate: 3
-
-# Default YAML Front Matter
+---
+title: Expositus
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-        path: "" # ever little thang
-    values:
-        author: Mark Fischer, Jr.
+- scope:
+    path: ''
+  values:
+    author: Mark Fischer, Jr.
+email: flyingfisch@toppagedesign.com
+description: 'My personal blog where I post about programming as well as other topics.
 
-# gems
-gems: [jekyll_figure]
-
+'
+baseurl: ''
+url: http://flyingfisch.github.io
+twitter_username: flyingfisch_
+github_username: flyingfisch
+exclude:
+- README.md
+keep_files:
+- README.md
+- ".git"
+markdown: kramdown
+redcarpet:
+  extensions:
+  - fenced_code_blocks
+kramdown:
+  auto_ids: true
+paginate: 3
+gems:
+- jekyll_figure
 figures:
-    dir: /assets/figures
-    enumerate: true
+  dir: "/assets/figures"
+  enumerate: true

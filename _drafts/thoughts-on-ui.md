@@ -1,8 +1,10 @@
 ---
+title: Thoughts on UI
+date: 2015-05-04 00:00:00 Z
+categories:
+- programming
+- frontend
 layout: post
-title: "Thoughts on UI"
-date: 2015-05-04
-categories: programming frontend
 ---
 
 > This post needs a lot of help. May not finish it.

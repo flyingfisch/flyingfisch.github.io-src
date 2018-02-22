@@ -1,8 +1,10 @@
 ---
+title: Using REST Inside Programs
+date: 2015-05-17 00:00:00 Z
+categories:
+- programming
+- web
 layout: post
-title: "Using REST Inside Programs"
-date: 2015-05-17
-categories: programming web
 ---
 
 Rich Hickey proposed an interesting idea in his [keynote at RailsConf 2012][1].

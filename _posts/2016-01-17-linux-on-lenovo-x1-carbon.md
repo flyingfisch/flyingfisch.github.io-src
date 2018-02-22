@@ -1,8 +1,9 @@
 ---
+title: Setting up Linux on a Lenovo X1 Carbon
+date: 2016-01-17 00:00:00 Z
+categories:
+- linux
 layout: post
-title: "Setting up Linux on a Lenovo X1 Carbon"
-date: 2016-01-17
-categories: linux
 ---
 
 I bought a Lenovo X1 Carbon (3rd Generation) to replace my old low-end Toshiba Satellite as my primary development laptop. Overall, I am extremely pleased with the laptop's build quality and performance. I found the keyboard particularly nice, especially for a chicklet keyboard.

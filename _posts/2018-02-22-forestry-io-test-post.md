@@ -1,11 +1,12 @@
 ---
-author: Mark Fischer, Jr.
 title: Forestry.io test post
-date: 2018-02-22 15:10:46 -0500
+date: 2018-02-22 20:10:46 Z
 categories:
 - test
+author: Mark Fischer, Jr.
 layout: post
 ---
+
 # This is a test post
 
 testing

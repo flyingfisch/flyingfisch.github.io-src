@@ -1,9 +1,11 @@
 ---
+title: Don't Worry, Just Code
+date: 2015-08-04 00:00:00 Z
+categories:
+- culture
+- programming
 layout: post
-title: "Don't Worry, Just Code"
-disqusid: "dontworryjustcode1"
-date: 2015-08-04
-categories: culture programming
+disqusid: dontworryjustcode1
 ---
 
 Use [this chart](http://lifehacker.com/this-graphic-helps-you-pick-your-first-programming-lang-1719213677) to decide your first programming language. Hey, come back! I was just making a point. Hello?

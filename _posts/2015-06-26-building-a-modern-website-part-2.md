@@ -1,8 +1,12 @@
 ---
+title: 'Building a Modern Website: Part 2'
+date: 2015-06-26 00:00:00 Z
+categories:
+- frontend
+- design
+- tutorial
+- modern-website-series
 layout: post
-title: "Building a Modern Website: Part 2"
-date: 2015-06-26
-categories: frontend design tutorial modern-website-series
 ---
 
 This is the third of a [3-post series](/modern-website-series/) on building a modern website (if you don't understand the post title, this may help you: the series started with Part 0. [Lua developers are excused](http://stackoverflow.com/questions/2785704/why-do-lua-arraystables-start-at-1-instead-of-0) for not getting the significance.). The demo website is a fictional sailing club's homepage. This post will go over the footer and finishing touches. This is what the site looked like at the end of the last post:

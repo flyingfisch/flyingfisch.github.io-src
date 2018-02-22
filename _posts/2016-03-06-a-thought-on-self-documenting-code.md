@@ -1,8 +1,9 @@
 ---
+title: A thought on Self Documenting Code
+date: 2016-03-06 00:00:00 Z
+categories:
+- programming
 layout: post
-title: "A thought on Self Documenting Code"
-date: 2016-03-06
-categories: programming
 ---
 
 At risk of sounding like I don't know what I am talking about, I'm writing this post to document something that most programmers have probably known for a long time, even though I only just discovered it.

@@ -1,8 +1,12 @@
 ---
+title: 'Building a Modern Website: Part 1'
+date: 2015-06-10 00:00:00 Z
+categories:
+- frontend
+- design
+- tutorial
+- modern-website-series
 layout: post
-title: "Building a Modern Website: Part 1"
-date: 2015-06-10
-categories: frontend design tutorial modern-website-series
 ---
 
 This is the second of a [3-post series](/modern-website-series/) on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the navigation bar and body text. The last part will go over the footer and finishing touches. This is what the site looked like at the end of the last post:

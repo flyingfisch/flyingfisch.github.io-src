@@ -1,8 +1,9 @@
 ---
+title: Getting started with the HTML5 notification API
+date: 2016-08-19 00:00:00 Z
+categories:
+- javascript
 layout: post
-title: "Getting started with the HTML5 notification API"
-date: 2016-08-19
-categories: javascript
 ---
 
 I used the HTML5 notification API for the first time today, it's actually much more simple than I expected. There are two functions you need to know about:

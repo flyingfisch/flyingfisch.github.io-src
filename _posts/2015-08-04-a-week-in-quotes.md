@@ -1,8 +1,9 @@
 ---
+title: A Week in Quotes
+date: 2015-08-04 00:00:00 Z
+categories:
+- project
 layout: post
-title: "A Week in Quotes"
-date: 2015-08-04
-categories: project
 ---
 
 This past week I have been making one [codepen a day](http://codepen.io/collection/ANqEdj/) featuring an interesting quote. Here is an example.

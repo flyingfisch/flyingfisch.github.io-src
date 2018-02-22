@@ -1,8 +1,9 @@
 ---
+title: Announcing Tolkien Ipsum
+date: 2015-05-28 00:00:00 Z
+categories:
+- announcement
 layout: post
-title: "Announcing Tolkien Ipsum"
-date: 2015-05-28
-categories: announcement
 ---
 
 I built a little website that generates Lord of the Rings themed Lorem Ipsum. You can [check it out live](http://tolkienipsum.cloudapp.net/) or view the source on [GitHub](https://github.com/flyingfisch/tolkienIpsum).

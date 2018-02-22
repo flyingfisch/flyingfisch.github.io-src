@@ -1,8 +1,10 @@
 ---
+title: 'FSX Review: L-39C Freeware'
+date: 2016-08-01 00:00:00 Z
+categories:
+- flight-simulator
+- fsx
 layout: post
-title: "FSX Review: L-39C Freeware"
-date: 2016-08-01
-categories: flight-simulator fsx
 ---
 
 I just came across this excellent L-39C this weekend, and I had to share. Interestingly, the only references to it seem to be in a [forum thread on SimOuthouse](http://www.sim-outhouse.com/sohforums/showthread.php?92435-DoughBree-L-39C-%28FSX%29). To my knowledge, this is the first review ever written for it.

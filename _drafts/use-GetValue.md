@@ -1,8 +1,9 @@
 ---
+title: A Redis escaping story
+date: 2015-10-31 00:00:00 Z
+categories:
+- bug
 layout: post
-title: "A Redis escaping story"
-date: 2015-10-31
-categories: bug
 ---
 
 I ran into this bug at work, and since I couldn't find the documentation anywhere decided to post it here for posterity. For background, we were originally stripping the domain off usernames for intranet apps, but we stopped doing that since other companies are using our software now. For example, before the change we would send `username`, whereas we now send `DOMAIN\username`. And that's where my story starts.
