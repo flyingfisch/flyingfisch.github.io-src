@@ -31,7 +31,7 @@ $ sudo apt-get install cinnamon
 Although Cinnamon comes with a scaling mode, you can only switch between 1x and 2x GUI scaling. My screen's DPI isn't quite high enough for 2x, though it is high enough that at 1x the fonts were too small to read easily. I was able to solve this by changing the font scale to 1.2. The default height for the Cinnamon panel seemed small as well, so I made it taller.
 
 <figure>
-<img src="{% asset_path x1screenshot1.jpg %}" alt="Screenshot showing Cinnamon with the numix theme">
+<img src="/assets/x1screenshot1.jpg" alt="Screenshot showing Cinnamon with the numix theme">
 <figcaption>Cinnamon with Numix</figcaption>
 </figure>
 
