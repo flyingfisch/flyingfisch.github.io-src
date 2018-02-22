@@ -4,8 +4,8 @@ date: 2015-08-04 00:00:00 Z
 categories:
 - culture
 - programming
-layout: post
 disqusid: dontworryjustcode1
+layout: post
 ---
 
 Use [this chart](http://lifehacker.com/this-graphic-helps-you-pick-your-first-programming-lang-1719213677) to decide your first programming language. Hey, come back! I was just making a point. Hello?
@@ -17,7 +17,7 @@ For those of you who stayed, charts like this are just about the worst way to ch
 _If you don't want to read the long personal story of my relationship with programming, you can take the elevator [another floor down](#Its-easy-to-learn-new-languages)._ 
 
 <figure>
-<img src="{% asset_path fx9750gii.jpeg %}" alt="Casio fx-9750GII">
+<img src="/assets/fx9750gii.jpeg" alt="Casio fx-9750GII">
 <figcaption>The fx-9750GII</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ This wasn't the end though, because a couple weeks later I came across a thread 
 And then I dove into Lua. I wrote sh'mups. I made some obstacle dodging games. I wrote a couple libraries to help other developers who came my way. Life was good.
 
 <figure>
-<img src="{% asset_path prizm.jpeg %}" alt="Casio fx-9750GII">
+<img src="/assets/prizm.jpeg" alt="Casio fx-9750GII">
 <figcaption>The Casio PRIZM</figcaption>
 </figure>
 
