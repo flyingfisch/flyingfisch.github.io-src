@@ -1,0 +1,8 @@
+---
+hide_body: false
+fields:
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: Mark Fischer, Jr.
