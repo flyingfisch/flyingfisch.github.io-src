@@ -234,7 +234,6 @@ aside {
 nav.article {
     text-align: center;
     position: fixed;
-    //@new right or left? still deciding.
     right: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -259,15 +258,6 @@ article.post {
     }
 
     > p:first-of-type:not(.normal-font) {
-        &:first-letter {
-            font-size: 2em;
-            vertical-align: middle;
-        }
-        &:first-line {
-            font-variant: small-caps;
-            font-size: 1.25em;
-        }
-
         font-size: 1.1em;
     }
 
