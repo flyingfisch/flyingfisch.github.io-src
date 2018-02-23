@@ -38,7 +38,7 @@ public List<string> GetFruit()
 }
 ```
 
-# Variables that represent a single object should be named as singular, those that represent multiple objects should be plural
+# Don't give singular classes and variables with plural names
 
 I feel like this goes without saying but it occurs so often I suppoose it bears mentioning.
 
