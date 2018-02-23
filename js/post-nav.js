@@ -46,8 +46,8 @@ $(document).ready(function() {
     // add ids to headers
     headerElements.each(function(index) {
         // replace spaces with dashes, and remove non-alphanumeric chars
-        var id = '';
-        id = $(this).html().replace(/\s/g, '-');
+        var headerText = $(this).text();
+        var id = headerText.replace(/\s/g, '-');
         id = id.replace(/[^(A-Z)(a-z)(0-9)-]/g,'');
         
         var headerElement = $(this);
@@ -60,7 +60,7 @@ $(document).ready(function() {
         headerElement.attr('id', id);
 
         headerElement.append('<a class="id" href="#' + id + '">' + id + '</a>');
-        articleNavElement.append('<a href="#' + id + '">' + emptyCircle + '</a> ')
+        articleNavElement.append('<a href="#' + id + '" title="' + headerText + '">' + emptyCircle + '</a> ')
     });
     
 
