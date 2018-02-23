@@ -3,6 +3,11 @@ var filledCircle = '&#9679;';
 var headerIds = [];
 var headerSelector = 'article h1:not(.post-title)';
 
+var debounceSettings = {
+	delay: 500,
+	immediate: false
+};
+
 // Source: https://davidwalsh.name/javascript-debounce-function
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
@@ -71,7 +76,7 @@ $(document).ready(function() {
                 sectionNavElement.html(emptyCircle);
             }
         });
-    }, 500));
+    }, debounceSettings.delay, debounceSettings.immediate));
 });
 
 
