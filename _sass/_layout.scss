@@ -52,6 +52,10 @@ pre, code {
     font-family: $sourceCodeFontStack;
 }
 
+.highlighter-rouge {
+    padding: 0;
+}
+
 pre {
     margin: 4em 0;
     background-color: $background;
@@ -121,7 +125,7 @@ pre.language-javascript:after {
     content: "JS";
 }
 
-article > *, .center {
+article > *, .center, pre.highlight {
     padding: 0 $bodyGutter;
 }
 
