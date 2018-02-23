@@ -50,9 +50,8 @@ class Apples
 }
 
 var apple = new List<Apples>();
-
-// instead
-class Apple
-{
-    // ...
 ```
+
+I guess the bottom line with all this is: think for a second before you name your variables.
+
+
