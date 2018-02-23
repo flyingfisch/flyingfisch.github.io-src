@@ -38,7 +38,7 @@ public List<string> GetFruit()
 }
 ```
 
-# Don't give singular classes and variables with plural names
+# Don't give singular classes and variables plural names
 
 I feel like this goes without saying but it occurs so often I suppose it bears mentioning.
 
