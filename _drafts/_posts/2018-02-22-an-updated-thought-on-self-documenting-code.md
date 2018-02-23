@@ -52,6 +52,6 @@ class Apples
 var apple = new List<Apples>();
 ```
 
-I guess the bottom line with all this is: think for a second before you name your variables.
+I guess the bottom line with all this is: think for a second before you name things.
 
 
