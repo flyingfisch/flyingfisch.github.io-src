@@ -41,7 +41,7 @@ $(document).ready(function() {
     var scrollHandler = {
         allow: true,
         reAllow: function () {
-            this.allow = true;
+            scrollHandler.allow = true;
         },
         delay: 50
     };
