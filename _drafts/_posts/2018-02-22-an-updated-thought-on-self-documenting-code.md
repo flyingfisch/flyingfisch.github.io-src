@@ -40,7 +40,7 @@ public List<string> GetFruit()
 
 # Don't give singular classes and variables with plural names
 
-I feel like this goes without saying but it occurs so often I suppoose it bears mentioning.
+I feel like this goes without saying but it occurs so often I suppose it bears mentioning.
 
 ```csharp
 // don't do this
