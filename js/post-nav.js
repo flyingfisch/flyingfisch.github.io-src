@@ -3,13 +3,24 @@ var filledCircle = '&#9679;';
 var headerIds = [];
 var headerSelector = 'article h1:not(.post-title)';
 
-// poor man's debouncer
-var scrollHandler = {
-    allow: true,
-    reAllow: function () {
-        scrollHandler.allow = true;
-    },
-    delay: 50
+// Source: https://davidwalsh.name/javascript-debounce-function
+// Returns a function, that, as long as it continues to be invoked, will not
+// be triggered. The function will be called after it stops being called for
+// N milliseconds. If `immediate` is passed, trigger the function on the
+// leading edge, instead of the trailing.
+function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
 };
 
 
@@ -48,24 +59,19 @@ $(document).ready(function() {
     });
     
 
-    $(window).scroll(function() {
-        if (scrollHandler.allow) {
-            headerElements.each(function(index) {
-                var headerElement = $(this);
-                var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
+    $(window).scroll(debounce(function() {
+        headerElements.each(function(index) {
+            var headerElement = $(this);
+            var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
 
-                // fill in circles for headers that have been viewed
-                if (headerElement.is(':in-viewport') || headerElement.is(':above-the-top')) {
-                    sectionNavElement.html(filledCircle);
-                } else {
-                    sectionNavElement.html(emptyCircle);
-                }
-            });
-            
-            scrollHandler.allow = false;
-            setTimeout(scrollHandler.reAllow, scrollHandler.delay);
-        }
-    });
+            // fill in circles for headers that have been viewed
+            if (headerElement.is(':in-viewport') || headerElement.is(':above-the-top')) {
+                sectionNavElement.html(filledCircle);
+            } else {
+                sectionNavElement.html(emptyCircle);
+            }
+        });
+    }, 500));
 });
 
 
