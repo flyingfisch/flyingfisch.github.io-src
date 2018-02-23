@@ -4,6 +4,9 @@ var headerIds = [];
 var headerSelector = 'article h1:not(.post-title)';
 
 $(document).ready(function() {
+    var headerElements = $(headerSelector);
+    var articleNavElement = $('nav.article');
+    
     // add ids to figures
     $('article figure').each(function(index) {
         var i = index + 1;
@@ -15,33 +18,35 @@ $(document).ready(function() {
     });
 
     // add ids to headers
-    $(headerSelector).each(function(index) {
+    headerElements.each(function(index) {
         // replace spaces with dashes, and remove non-alphanumeric chars
         var id = '';
         id = $(this).html().replace(/\s/g, '-');
         id = id.replace(/[^(A-Z)(a-z)(0-9)-]/g,'');
+        
+        var headerElement = $(this);
 
         if($.inArray(id, headerIds) != -1) {
             id = id + index;
         }
 
         headerIds[index] = id;
-        $(this).attr('id', id);
+        headerElement.attr('id', id);
 
-        $(this).append('<a class="id" href="#' + id + '">' + id + '</a>');
-        $('nav.article').append('<a href="#' + id + '">' + emptyCircle + '</a> ')
+        headerElement.append('<a class="id" href="#' + id + '">' + id + '</a>');
+        articleNavElement.append('<a href="#' + id + '">' + emptyCircle + '</a> ')
     });
 
     $(window).scroll(function() {
-        // populate section nav
-        $(headerSelector).each(function(index) {
-            $('nav.article a:nth-child(' + (index + 1) + ')').html(emptyCircle);
-        });
-
-        // fill in circles for headers that have been viewed
-        $(headerSelector).each(function(index) {
+        headerElements.each(function(index) {
+            var headerElement = $(this);
+            var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
+            
+            // fill in circles for headers that have been viewed
             if ($(this).is(':in-viewport') || $(this).is(':above-the-top')) {
-                $('nav.article a:nth-child(' + (index + 1) + ')').html(filledCircle);
+                sectionNavElement.html(filledCircle);
+            } else {
+                sectionNavElement.html(emptyCircle);
             }
         });
     });
