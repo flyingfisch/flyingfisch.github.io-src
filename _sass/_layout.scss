@@ -127,6 +127,10 @@ pre.language-javascript:after {
 
 article > *, .center, pre.highlight {
     padding: 0 $bodyGutter;
+    
+    @include respond-to(handhelds) {
+        padding: 0 2%;
+    }
 }
 
 ol, ul {
@@ -172,17 +176,11 @@ a {
 }
 
 header {
-    //background-image: url("https://download.unsplash.com/photo-1432821596592-e2c18b78144f");
     background-image: url("/assets/bg.jpg");
     background-size: cover;
     overflow: hidden;
     text-align: center;
     font-size: 2em;
-
-    &:after, h1 {
-        //color: $background-highlight;
-        //text-shadow: .1em .05em $foreground;
-    }
 
     &:after {
         content: "❧";
@@ -268,7 +266,6 @@ article.post {
         max-width: $bodyWidth;
 
         @include respond-to(handhelds) {
-            display: block;
             clear: both;
             float: none;
         }
