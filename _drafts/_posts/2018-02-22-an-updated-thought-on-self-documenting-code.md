@@ -38,3 +38,25 @@ public List<string> GetFruit()
     return fruit;
 }
 ~~~
+
+
+# Variables that represent a single object should be named as singular, those that represent multiple objects should be plural
+
+I feel like this goes without saying but it occurs so often I suppoose it bears mentioning.
+
+~~~csharp
+// don't do this
+class Apples
+{
+	public string Name { get; set; }
+}
+
+var apple = new List<Apples>();
+
+// instead
+class Apple
+{
+	// ...
+~~~
+
+
