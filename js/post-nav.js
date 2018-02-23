@@ -36,19 +36,33 @@ $(document).ready(function() {
         headerElement.append('<a class="id" href="#' + id + '">' + id + '</a>');
         articleNavElement.append('<a href="#' + id + '">' + emptyCircle + '</a> ')
     });
+    
+    // poor man's debouncer
+    var scrollHandler = {
+        allow: true,
+        reAllow: function () {
+            this.allow = true;
+        },
+        delay: 50
+    };
 
     $(window).scroll(function() {
-        headerElements.each(function(index) {
-            var headerElement = $(this);
-            var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
+        if (scrollHandler.allow) {
+            headerElements.each(function(index) {
+                var headerElement = $(this);
+                var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
+
+                // fill in circles for headers that have been viewed
+                if ($(this).is(':in-viewport') || $(this).is(':above-the-top')) {
+                    sectionNavElement.html(filledCircle);
+                } else {
+                    sectionNavElement.html(emptyCircle);
+                }
+            });
             
-            // fill in circles for headers that have been viewed
-            if ($(this).is(':in-viewport') || $(this).is(':above-the-top')) {
-                sectionNavElement.html(filledCircle);
-            } else {
-                sectionNavElement.html(emptyCircle);
-            }
-        });
+            scrollHandler.allow = false;
+            setTimeout(scrollHandler.reAllow, scrollHandler.delay);
+        }
     });
 });
 
