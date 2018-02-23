@@ -4,7 +4,7 @@ var headerIds = [];
 var headerSelector = 'article h1:not(.post-title)';
 
 var debounceSettings = {
-	delay: 500,
+	delay: 250,
 	immediate: false
 };
 
