@@ -3,6 +3,16 @@ var filledCircle = '&#9679;';
 var headerIds = [];
 var headerSelector = 'article h1:not(.post-title)';
 
+// poor man's debouncer
+var scrollHandler = {
+    allow: true,
+    reAllow: function () {
+        scrollHandler.allow = true;
+    },
+    delay: 50
+};
+
+
 $(document).ready(function() {
     var headerElements = $(headerSelector);
     var articleNavElement = $('nav.article');
@@ -37,14 +47,6 @@ $(document).ready(function() {
         articleNavElement.append('<a href="#' + id + '">' + emptyCircle + '</a> ')
     });
     
-    // poor man's debouncer
-    var scrollHandler = {
-        allow: true,
-        reAllow: function () {
-            scrollHandler.allow = true;
-        },
-        delay: 50
-    };
 
     $(window).scroll(function() {
         if (scrollHandler.allow) {
