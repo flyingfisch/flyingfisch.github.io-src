@@ -55,7 +55,7 @@ $(document).ready(function() {
                 var sectionNavElement = $('nav.article a:nth-child(' + (index + 1) + ')');
 
                 // fill in circles for headers that have been viewed
-                if ($(this).is(':in-viewport') || $(this).is(':above-the-top')) {
+                if (headerElement.is(':in-viewport') || headerElement.is(':above-the-top')) {
                     sectionNavElement.html(filledCircle);
                 } else {
                     sectionNavElement.html(emptyCircle);
