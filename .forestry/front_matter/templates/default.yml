@@ -3,7 +3,7 @@ pages:
 - _posts/2018-02-22-an-updated-thought-on-self-documenting-code.md
 - _posts/2018-02-22-poetry.md
 - _posts/visual-studio-code.md
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Title
