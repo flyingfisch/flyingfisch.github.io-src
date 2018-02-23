@@ -30,4 +30,4 @@ fields:
   hidden: false
   default: Mark Fischer, Jr.
   config:
-    required: true
+    required: false
