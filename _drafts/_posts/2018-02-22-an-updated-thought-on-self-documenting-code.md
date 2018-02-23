@@ -8,12 +8,11 @@ categories:
 ---
 Almost two years ago I wrote [a post]({% post_url 2016-03-06-a-thought-on-self-documenting-code %}) where I proposed a (probably obvious) technique for writing self-documenting code. In those two years I've learned more techniques for writing self-documenting code, and I've also seen results of not putting focus on code legibility. I thought I'd write a follow-up post describing them.
 
-
 # Name your return variables
 
 When writing a method that returns a value, please don't name the placeholder variable "ret", "return", "value", etc. Instead give it a meaningful name describing what it is.
 
-~~~csharp
+```csharp
 // don't do this
 public List<string> GetFruit()
 {
@@ -37,14 +36,13 @@ public List<string> GetFruit()
     
     return fruit;
 }
-~~~
-
+```
 
 # Variables that represent a single object should be named as singular, those that represent multiple objects should be plural
 
 I feel like this goes without saying but it occurs so often I suppoose it bears mentioning.
 
-~~~csharp
+```csharp
 // don't do this
 class Apples
 {
@@ -57,6 +55,4 @@ var apple = new List<Apples>();
 class Apple
 {
 	// ...
-~~~
-
-
+```
