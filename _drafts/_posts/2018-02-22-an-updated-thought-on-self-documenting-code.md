@@ -46,7 +46,7 @@ I feel like this goes without saying but it occurs so often I suppoose it bears 
 // don't do this
 class Apples
 {
-	public string Name { get; set; }
+    public string Name { get; set; }
 }
 
 var apple = new List<Apples>();
@@ -54,5 +54,5 @@ var apple = new List<Apples>();
 // instead
 class Apple
 {
-	// ...
+    // ...
 ```
