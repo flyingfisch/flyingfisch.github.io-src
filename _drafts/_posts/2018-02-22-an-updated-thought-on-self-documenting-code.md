@@ -16,7 +16,7 @@ When writing a method that returns a value, please don't name the placeholder va
 // don't do this
 public List<string> GetFruit()
 {
-	var ret = new List<string>();
+    var ret = new List<string>();
     
     ret.Add("apple");
     ret.Add("pear");
@@ -28,7 +28,7 @@ public List<string> GetFruit()
 // instead, do this
 public List<string> GetFruit()
 {
-	var fruit = new List<string>();
+    var fruit = new List<string>();
     
     fruit.Add("apple");
     fruit.Add("pear");
