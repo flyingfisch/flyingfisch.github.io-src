@@ -10,7 +10,7 @@ I've started implementing automated testing on a project I'm working on using MS
 
 # Creating the test project
 
-Create the project using the "Unit Test" template in Visual Studio. As far as I understand the naming convention for test projects is usually `ProjectBeingTested.Tests`. 
+Create the project using the "Unit Test" template in Visual Studio. As far as I understand the naming convention for test projects is usually `ProjectBeingTested.Tests`.
 
 Add the following nuget packages to the project: `Selenium.WebDriver` and `Selenium.Support`. You will also need to add nuget packages for the browsers you want to test with. I used `Selenium.Firefox.WebDriver`. For some reason the browser nuget packages are made by a third party and not by the Selenium team, but you need them in order for the tests to run. As far as I can tell this isn't documented anywhere.
 
@@ -83,7 +83,7 @@ This logic can be abstracted away into an abstract class which has the added ben
 [TestClass]
 public abstract class Tests
 {
-    public static RemoteDriver driver { get; private set; }
+    protected static RemoteDriver driver { get; private set; }
     
     [AssemblyInitialize]
     public static void AssemblyInitialize(TestContext context)

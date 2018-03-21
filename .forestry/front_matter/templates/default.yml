@@ -1,8 +1,8 @@
 ---
 pages:
+- _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
 - _posts/2018-03-21-weird-tfs-error-message.md
 - _posts/mstest-runsettings.md
-- _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
 - _posts/2018-02-22-an-updated-thought-on-self-documenting-code.md
 - _posts/2018-02-22-poetry.md
 - _posts/visual-studio-code.md
