@@ -27,12 +27,12 @@ Most of the examples online show something like this:
 [TestClass]
 public class HomeControllerTests
 {
-	[TestMethod]
+    [TestMethod]
     public void HomePage_WhenSuccessful_PageTitleIsHome
     {
     	using (var driver = new FirefoxDriver())
         {
-        	driver.Navigate().GoToUrl("http://localhost/MyWebsite/");
+            driver.Navigate().GoToUrl("http://localhost/MyWebsite/");
             
             Assert.IsTrue(driver.Title == "Home");
         }
@@ -48,7 +48,7 @@ Instead, the following code can be used to have all tests in the test class use 
 [TestClass]
 public class HomeControllerTests
 {
-	private static RemoteDriver driver;
+    private static RemoteDriver driver;
     
     [ClassInitialize]
     public static void ClassInitialize(TestContext context)
@@ -72,7 +72,7 @@ public class HomeControllerTests
         driver.Manage().Cookies.DeleteAllCookies();
     }
     
-	[TestMethod]
+    [TestMethod]
     public void HomePage_WhenSuccessful_PageTitleIsHome
     {
        	driver.Navigate().GoToUrl("http://localhost/MyWebsite/");
@@ -88,7 +88,7 @@ This logic can be abstracted away into an abstract class which has the added ben
 [TestClass]
 public abstract class Tests
 {
-	public static RemoteDriver driver { get; private set; }
+    public static RemoteDriver driver { get; private set; }
     
     [ClassInitialize]
     public static void ClassInitialize(TestContext context)
@@ -112,7 +112,7 @@ public abstract class Tests
 [TestClass]
 public class HomeControllerTests
 {
-	[TestMethod]
+    [TestMethod]
     public void HomePage_WhenSuccessful_PageTitleIsHome
     {
     	driver.Navigate().GoToUrl("http://localhost/MyWebsite/");
