@@ -119,4 +119,4 @@ public class HomeControllerTests : Tests
 
 # Going forward
 
-I'll be blogging further findings as I get to them, at the moment I'm only about a week into test driven development (or behavior driven development or acceptance driven development or whatever it is we're doing here). This post has just been about setting up the project structure, I'll be getting into actual test writing and Continuous Integration using TFS in future posts.
+I'll be blogging further findings as I get to them, at the moment I'm only about a week into test driven development (or behavior driven development or acceptance driven development or whatever it is we're doing here). This post has just been about setting up the project structure, I'll be getting into actual test writing and Continuous Integration using TFS in future posts. I might also add other web drivers or a headless web driver as this develops.
