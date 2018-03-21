@@ -1,23 +1,16 @@
 ---
 author: Mark Fischer, Jr.
-title: Automated Testing with MSTest and Selenium
+title: Setting up  automated testing with MSTest and Selenium
 date: 2018-03-20 00:00:00 +0000
 layout: post
 categories:
 - testing
 ---
-I've been implementing automated testing on a project using MSTest and Selenium. I've run into several issues that I couldn't find answers for online so I figured I'd document the process here.
+I've started implementing automated testing on a project I'm working on using MSTest and Selenium. I've run into several issues that I couldn't find answers for online so I thought I'd document my findings here.
 
 # Creating the test project
 
 Create the project using the "Unit Test" template in Visual Studio. Add the following nuget packages to the project: `Selenium.WebDriver` and `Selenium.Support`. You will also need to add nuget packages for the browsers you want to test with. I used `Selenium.Firefox.WebDriver`. For some reason the browser nuget packages are third party and not made by the Selenium team, but you need them so that the browser executables are in the right directory.
-
-# Structure
-
-* classes are test suites
-* methods are test cases
-* classes are controller-based
-* methods are named `{ControllerAction}Page_{StateUnderTest}_{ExpectedBehavior}`
 
 # Getting the tests to run in the same browser
 
@@ -110,7 +103,7 @@ public abstract class Tests
 }
 
 [TestClass]
-public class HomeControllerTests
+public class HomeControllerTests : Tests
 {
     [TestMethod]
     public void HomePage_WhenSuccessful_PageTitleIsHome
@@ -121,3 +114,7 @@ public class HomeControllerTests
     }
 }
 ```
+
+# Going forward
+
+I'll be blogging further findings as I get to them, at the moment I'm only about a week into test driven development (or behavior driven development or acceptance driven development or whatever it is we're doing here). This post has just been about setting up the project structure, I'll be getting into actual test writing and Continuous Integration using TFS in future posts.
