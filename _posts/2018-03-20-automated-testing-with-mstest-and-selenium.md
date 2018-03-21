@@ -85,14 +85,14 @@ public abstract class Tests
 {
     public static RemoteDriver driver { get; private set; }
     
-    [ClassInitialize]
-    public static void ClassInitialize(TestContext context)
+    [AssemblyInitialize]
+    public static void AssemblyInitialize(TestContext context)
     {
     	driver = new FirefoxDriver();
     }
     
-    [ClassCleanup]
-    public static void ClassCleanup()
+    [AssemblyCleanup]
+    public static void AssemblyCleanup()
     {
         driver.Dispose();
     }
