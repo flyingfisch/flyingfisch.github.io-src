@@ -10,7 +10,9 @@ I've started implementing automated testing on a project I'm working on using MS
 
 # Creating the test project
 
-Create the project using the "Unit Test" template in Visual Studio. Add the following nuget packages to the project: `Selenium.WebDriver` and `Selenium.Support`. You will also need to add nuget packages for the browsers you want to test with. I used `Selenium.Firefox.WebDriver`. For some reason the browser nuget packages are third party and not made by the Selenium team, but you need them so that the browser executables are in the right directory.
+Create the project using the "Unit Test" template in Visual Studio. As far as I understand the naming convention for test projects is usually `ProjectBeingTested.Tests`. 
+
+Add the following nuget packages to the project: `Selenium.WebDriver` and `Selenium.Support`. You will also need to add nuget packages for the browsers you want to test with. I used `Selenium.Firefox.WebDriver`. For some reason the browser nuget packages are third party and not made by the Selenium team, but you need them so that the browser executables are in the right directory.
 
 # Getting the tests to run in the same browser
 
