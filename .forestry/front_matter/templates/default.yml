@@ -1,5 +1,6 @@
 ---
 pages:
+- _posts/cognitive-overhead.md
 - _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
 - _posts/2018-03-21-weird-tfs-error-message.md
 - _posts/mstest-runsettings.md
