@@ -6,7 +6,7 @@ layout: post
 categories:
 - rant
 ---
-Imagine walking into a new grocery store. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of a radio playing low quality music on a lower quality speaker, quiet enough that you can't quite tell what's playing, loud enough that you can't ignore it.
+Imagine walking into a new grocery store. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the [sound of](https://www.youtube.com/watch?v=5fH2FOn1V5g) low quality [music](https://www.youtube.com/watch?v=5fH2FOn1V5g) on a lower quality speaker, quiet enough that you can't tell what's playing, loud enough that you can't ignore it.
 
 As you walk further into the store you feel increasingly trapped. It's not the immediate panic of claustrophobia, but a dull anxiety that makes you wish you were somewhere else. Shelves obscure your vision past a few feet. Even if you happen to be near a window, you can't see out because it's plastered in advertisements.
 
