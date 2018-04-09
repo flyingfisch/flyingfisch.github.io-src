@@ -1,12 +1,12 @@
 ---
 author: Mark Fischer, Jr.
 title: Grocery stores are broken
-date: 2018-04-09 00:00:00 +0000
+date: 2018-04-08 05:39:38 -1100
 layout: post
 categories:
 - rant
 ---
-Imagine walking into a new grocery store. Maybe it just opened, or maybe you moved recently. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of a radio playing low quality music on a lower quality speaker, quiet enough that you can't quite tell what's playing, loud enough that you can't ignore it.
+Imagine walking into a new grocery store. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of a radio playing low quality music on a lower quality speaker, quiet enough that you can't quite tell what's playing, loud enough that you can't ignore it.
 
 As you walk further into the store you feel increasingly trapped. It's not the immediate panic of claustrophobia, but a dull anxiety. Shelves obscure your vision past a few feet, and even if you happen to be near a window, you still can't see out because it's plastered in advertisements.
 
@@ -27,4 +27,4 @@ The grocery store shopping experience is broken, and the worst part about it is 
 
 This is not an exhaustive list, nor are these necessarily the best or even good solutions. The intention I had in posting this is to raise awareness about one of the most common yet unaddressed issues we encounter in day-to-day life.
 
-A future with self-driving cars and colonies in space is fun to think about, but a future where these experiences are resolved is also important. The best thing is, that future can start today.
+A future with self-driving cars and colonies in space is fun to think about, but a future where experiences such as these are resolved is also important. The best thing is, that future can start today.
