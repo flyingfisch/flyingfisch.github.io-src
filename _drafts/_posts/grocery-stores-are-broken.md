@@ -14,7 +14,7 @@ At this point you just want to get what you need and leave as quickly as possibl
 
 So, you finally have your items and it's time to check out. There are huge lines at the human-operated registers so you decide to use the self-checkout machine. You scan your first item and fumble to open the bag in the bagging area. A disembodied voice tells you to "please place item in bagging area". After finally getting the bag open you place said item in the bagging area, only to be reproached with "unexpected item in bagging area". You just can't win with this woman! Embarrassed, you call the clerk overseeing the self-checkout machines and ask her to reset it. She punches in a code and the machine accepts your item. You scan some more items, filling up the bag. Oh _no_! You have to open another bag. Time to fight with the machine again. This whole experience makes you feel like you were accused of stealing before you even scanned your first item.
 
-I could write a whole blog post on the botheration that is self-checkout machine user interfaces, but this post is intended to capture the broad experience of shopping at a grocery store, not the experiences within that experience which makes it even more aggravating.
+I could write a whole blog post on the botheration that is self-checkout machine user interfaces, but this post is intended to capture the broad experience of shopping at a grocery store, not the experiences within that experience that make it even more aggravating.
 
 The grocery store shopping experience is fundamentally broken, and the worst part about it is that _people think this is okay_. This is not okay! Here are some things I've been thinking about that could possibly improve the grocery shopping experience:
 
