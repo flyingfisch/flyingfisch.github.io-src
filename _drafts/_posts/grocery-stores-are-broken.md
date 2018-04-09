@@ -8,7 +8,7 @@ categories:
 ---
 Imagine walking into a new grocery store. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of a radio playing low quality music on a lower quality speaker, quiet enough that you can't quite tell what's playing, loud enough that you can't ignore it.
 
-As you walk further into the store you feel increasingly trapped. It's not the immediate panic of claustrophobia, but a dull anxiety. Shelves obscure your vision past a few feet, and even if you happen to be near a window, you still can't see out because it's plastered in advertisements.
+As you walk further into the store you feel increasingly trapped. It's not the immediate panic of claustrophobia, but a dull anxiety that makes you wish you were somewhere else. Shelves obscure your vision past a few feet, and even if you happen to be near a window, you still can't see out because it's plastered in advertisements.
 
 At this point you just want to get what you need and leave as quickly as possible. Unfortunately this is impossible since without previous knowledge of the store's categorization system and layout the only way to find anything is by making an educated guess based on the signs in the aisles. Signs that _lie._ Are you looking for yogurt? Maybe it's in the dairy section. Nope, joke's on you, it's by the eggs in this particular store. This forces you to browse the entire store instead of just the section with the item you want.
 
