@@ -16,7 +16,7 @@ So, you finally have your items and it's time to check out. There are huge lines
 
 I could write a whole blog post on the botheration that is self-checkout machine user interfaces, but this post is intended to capture the broad experience of shopping at a grocery store, not the experiences within that experience that make it even more aggravating.
 
-The grocery store shopping experience is broken, and the worst part about it is that _people think this is okay_. This is not okay! Here are some things I've been thinking about that could possibly improve the grocery shopping experience:
+The grocery store shopping experience is broken, and the worst part about it is that _people think this is okay_. This is not okay! Here are some things I've been thinking about that could improve the grocery shopping experience:
 
 1. Grocery stores should have ceiling-to-floor windows wherever possible. These windows _should not_ be covered with any advertisements whatsoever.
 2. Shelves should be 5 feet or shorter. There is no point in having large windows if you can't see them from most parts of the store.
