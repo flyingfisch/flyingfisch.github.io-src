@@ -22,8 +22,8 @@ The grocery store shopping experience is broken, and the worst part about it is 
 2. Shelves should be 5 feet or shorter. There is no point in having large windows if you can't see them from most parts of the store.
 3. Refrigerators should be in the center of the store, and should be chest-style refrigerators. This allows you to see over them and also frees up wall space for more windows.
 4. More items should be unavailable in the main store area. It's common for deli meats and baked goods to be sold in this manner, but I think this should be the case for all fresh food. This prevents customers from damaging items while looking for the "freshest" food.
-5. The rest of the store should be categorized using a decimal system similar to the Dewey Decimal System in use by libraries. This allows customers unfamiliar with the store to find items quickly without having to navigate the entire store or ask a clerk for assistance.
-6. Self-checkout machines need to be fixed. I think the only reason we still have human cashiers at grocery stores is because the self-checkout experience is so exasperating. Again, this almost warrants its own blog post, but I think just saying that we need to fix them is enough for this post.
+5. The browsable section of the store should be categorized using a decimal system similar to the Dewey Decimal System in use by libraries. This allows customers unfamiliar with the store to find items quickly without having to navigate the entire store or ask a clerk for assistance.
+6. Self-checkout machines need to be fixed. I think the only reason we still have human cashiers at grocery stores is because the self-checkout experience is so exasperating. Again, this almost warrants its own article, but I think just saying that we need to fix them is enough for this post.
 
 This is not an exhaustive list, nor are these necessarily the best or even good solutions. The intention I had in posting this is to raise awareness about one of the most common yet unaddressed issues we encounter in day-to-day life.
 
