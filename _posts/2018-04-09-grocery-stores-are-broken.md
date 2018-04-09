@@ -1,7 +1,7 @@
 ---
 author: Mark Fischer, Jr.
 title: Grocery stores are broken
-date: 2018-04-08 05:20:38 -1100
+date: 2018-04-08 05:13:38 -1100
 layout: post
 categories:
 - rant
