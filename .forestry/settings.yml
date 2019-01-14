@@ -1,9 +1,32 @@
 ---
-upload_path: "/assets/"
-frontmatter_file_url_template: "/assets/"
-body_file_url_template: "/assets/"
 new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
-collections: 
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: directory
+  path: _uploads
+  label: Uploads
+  create: all
+  match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
+  match: "**/*"
+upload_dir: assets
+public_path: "/assets"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site

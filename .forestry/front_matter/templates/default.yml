@@ -1,14 +1,7 @@
 ---
-pages:
-- _posts/2018-04-09-grocery-stores-are-broken.md
-- _posts/cognitive-overhead.md
-- _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
-- _posts/2018-03-21-weird-tfs-error-message.md
-- _posts/mstest-runsettings.md
-- _posts/2018-02-22-an-updated-thought-on-self-documenting-code.md
-- _posts/2018-02-22-poetry.md
-- _posts/visual-studio-code.md
+label: default
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -37,3 +30,8 @@ fields:
   default: Mark Fischer, Jr.
   config:
     required: false
+pages:
+- _posts/2018-02-22-poetry.md
+- _posts/2018-03-21-weird-tfs-error-message.md
+- _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
+- _posts/2018-04-09-grocery-stores-are-broken.md
