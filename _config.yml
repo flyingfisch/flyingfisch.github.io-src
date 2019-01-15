@@ -33,7 +33,7 @@ redcarpet:
 kramdown:
   auto_ids: true
 paginate: 3
-gems:
+plugins:
 - jekyll_figure
 figures:
   dir: "/assets/figures"
