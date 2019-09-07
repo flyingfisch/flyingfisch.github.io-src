@@ -30,6 +30,7 @@ fields:
   config:
     required: false
 pages:
+- _posts/sharpie-stainless-steel-pen-refill-hack.md
 - _posts/test.md
 - _posts/2018-04-09-grocery-stores-are-broken.md
 - _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
