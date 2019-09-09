@@ -27,7 +27,7 @@ $foreground-highlight: #933;
 $background: #fff;
 $background-highlight: #edc;
 
-$standardBorder: 10px solid ($background - #111);
+$standardBorder: 10px solid mix($background,#111);
 
 html * {
     box-sizing: border-box;
@@ -127,7 +127,7 @@ pre.language-javascript:after {
 
 article > *, .center, pre.highlight {
     padding: 0 $bodyGutter;
-    
+
     @include respond-to(handhelds) {
         padding: 0 2%;
     }
@@ -246,7 +246,7 @@ nav.article {
 
 article.post {
     line-height: 2.1rem;
-    color: $foreground + #333;
+    color: mix($foreground,#333);
 
     p {
         text-align: justify;
@@ -369,7 +369,7 @@ footer {
     line-height: 2em;
     margin-top: 8em;
     text-align: center;
-    color: $foreground + #777;
+    color: mix($foreground,#777);
 
     & p {
         padding-left: 1em;
