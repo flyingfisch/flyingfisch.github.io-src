@@ -30,8 +30,8 @@ fields:
   config:
     required: false
 pages:
+- _posts/2019-09-06-sharpie-stainless-steel-pen-refill-hack.md
 - _posts/2019-09-05-test.md
-- _posts/sharpie-stainless-steel-pen-refill-hack.md
 - _posts/2018-04-09-grocery-stores-are-broken.md
 - _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
 - _posts/2018-02-22-poetry.md
