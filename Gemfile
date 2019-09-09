@@ -5,4 +5,11 @@ gemspec
 
 gem "jekyll"
 gem 'pygments.rb'
-gem 'jekyll-paginate', group: :jekyll_plugins
+gem "tzinfo"
+gem "tzinfo-data"
+gem "rspec"
+gem "github-pages"
+
+group :jekyll_plugins do
+    gem "jekyll-paginate"
+end
