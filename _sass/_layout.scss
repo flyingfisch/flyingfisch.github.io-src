@@ -260,15 +260,8 @@ article.post {
     }
 
     img {
-        float: left;
         padding: 0;
-        margin: 1em 2em;
-        max-width: $bodyWidth;
-
-        @include respond-to(handhelds) {
-            clear: both;
-            float: none;
-        }
+        max-width: 100%;
     }
 
     figure {
