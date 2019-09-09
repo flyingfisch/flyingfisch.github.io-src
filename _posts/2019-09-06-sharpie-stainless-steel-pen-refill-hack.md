@@ -2,7 +2,7 @@
 author: Mark Fischer, Jr.
 date: 2019-09-06T04:00:00.000+00:00
 layout: post
-title: Sharpie Stainless Steel Pen Refill Hack Part 1
+title: Sharpie Stainless Steel Pen Refill Hack
 categories: []
 
 ---
