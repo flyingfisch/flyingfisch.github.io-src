@@ -29,16 +29,6 @@ fields:
   default: Mark Fischer, Jr.
   config:
     required: false
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Description
-  description: Page description for SEO
 pages:
 - _posts/2018-04-09-grocery-stores-are-broken.md
 - _posts/2019-09-06-sharpie-stainless-steel-pen-refill-hack.md
