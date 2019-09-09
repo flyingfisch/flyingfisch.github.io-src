@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _config.yml
-  label: Config
 - type: jekyll-pages
   label: Pages
   create: all
@@ -18,6 +15,9 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: _config.yml
+  label: Config
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
