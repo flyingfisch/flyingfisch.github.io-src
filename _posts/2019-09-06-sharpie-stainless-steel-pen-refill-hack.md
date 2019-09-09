@@ -31,13 +31,13 @@ Remove the cap from your Sharpie pen. Grasp the stainless barrel with one hand a
 
 ## Step 2: Disassemble the original Sharpie Pen refill
 
-Grasp the rear cap of the Sharpie refill with a pair of pliers. Pull firmly to remove, it's press fit and shouldn't take much effort. Inside there is a plastic covered piece of foam with the nib sticking out of it, remove that. Also remove the metal nib by pressing down firmly on a hard surface.
+Grasp the rear cap of the Sharpie refill with a pair of pliers. Pull firmly to remove, it's press fit and shouldn't take much effort. Inside there is a plastic covered piece of foam with the nib sticking out of it, remove that. Also remove the metal nib by pressing the point down firmly on a hard surface.
 
 ![](/assets/20190906_230201.jpg)
 
 ## Step 3: Insert the Cross Selectip refill into the original Sharpie
 
-Insert the Cross Selectip refill into the carcass of the Sharpie refill. Press firmly until the nib is exposed. A little bit of the Cross refill will be exposed, this is fine. The cap on the Sharpie refill can be discarded at this point.
+Insert the Cross Selectip refill into the carcass of the Sharpie refill. Press firmly until the nib is exposed. A little bit of the back of the Cross refill will be exposed, this is fine. The cap on the Sharpie refill can be discarded at this point.
 
 ![](/assets/20190906_223011-1.jpg)
 
