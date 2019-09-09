@@ -37,7 +37,7 @@ Grasp the rear cap of the Sharpie refill with a pair of pliers. Pull firmly to r
 
 ## Step 3: Insert the Cross Selectip refill into the original Sharpie
 
-Insert the Cross Selectip refill into the carcass of the Sharpie refill. Press firmly until the nib is exposed. A little bit of the back of the Cross refill will be exposed, this is fine. The cap on the Sharpie refill can be discarded at this point.
+Insert the Cross Selectip refill into the carcass of the Sharpie refill. Press firmly until the nib is exposed. A little bit of the back of the Cross refill will be exposed, this is fine. The rear cap on the Sharpie refill can be discarded at this point.
 
 ![](/assets/20190906_223011-1.jpg)
 
