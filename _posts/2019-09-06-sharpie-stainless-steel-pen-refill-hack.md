@@ -13,7 +13,7 @@ description: If you have owned a Sharpie Stainless Steel Pen, you will know two 
 ---
 # Backstory
 
-If you have owned a Sharpie Stainless Steel Pen, you will know two things. The first thing you'll know is that it is the most perfect pen ever invented and no other pen will ever compare. The second think you'll know, or find out, is that both the pen and the refills have been discontinued by Sharpie.
+If you have owned a Sharpie Stainless Steel Pen, you will know two things. The first thing you'll know is that it is the most perfect pen ever invented and no other pen will ever compare. The second thing you'll know, or find out, is that both the pen and the refills have been discontinued by Sharpie.
 
 WHY SHARPIE?! WHY WOULD YOU DISCONTINUE SUCH AN EXCELLENT PRODUCT???? WHY DID YOU DO THIS TO US?!
 
