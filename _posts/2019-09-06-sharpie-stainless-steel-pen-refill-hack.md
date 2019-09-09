@@ -4,6 +4,11 @@ date: 2019-09-06T04:00:00.000+00:00
 layout: post
 title: Sharpie Stainless Steel Pen Refill Hack
 categories: []
+description: If you have owned a Sharpie Stainless Steel Pen, you will know two things.
+  The first thing you'll know is that it is the most perfect pen ever invented and
+  no other pen will ever compare. The second think you'll know, or find out, is that
+  both the pen and the refills have been discontinued by Sharpie. These are instructions
+  for creating what I call the Sharpie Stainless Steel Pen Frankenfill Mark I.
 
 ---
 # Backstory
