@@ -18,7 +18,7 @@ description: 'My personal blog where I post about programming as well as other t
 
 '
 baseurl: 
-url: http://markfischerjr.com/
+url: https://markfischerjr.com/
 twitter_username: flyingfisch_
 github_username: flyingfisch
 exclude:
