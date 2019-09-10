@@ -27,7 +27,7 @@ $foreground-highlight: #933;
 $background: #fff;
 $background-highlight: #edc;
 
-$standardBorder: 10px solid ($background - #111);
+$standardBorder: 10px solid darken($background, 7%);
 
 html * {
     box-sizing: border-box;
@@ -246,7 +246,7 @@ nav.article {
 
 article.post {
     line-height: 2.1rem;
-    color: $foreground + #333;
+    color: lighten($foreground, 15%);
 
     p {
         text-align: justify;
@@ -369,7 +369,7 @@ footer {
     line-height: 2em;
     margin-top: 8em;
     text-align: center;
-    color: $foreground + #777;
+    color: lighten($foreground, 42%);
 
     & p {
         padding-left: 1em;
