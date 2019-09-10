@@ -11,7 +11,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: Invalid date
+  default: now
 - name: categories
   label: Categories
   type: tag_list
