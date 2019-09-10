@@ -35,6 +35,7 @@ kramdown:
 paginate: "3"
 plugins:
 - jekyll_figure
+- jekyll-paginate
 figures:
   dir: "/assets/figures"
   enumerate: true
