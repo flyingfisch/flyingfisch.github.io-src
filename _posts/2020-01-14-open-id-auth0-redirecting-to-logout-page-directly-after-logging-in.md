@@ -2,13 +2,13 @@
 author: Mark Fischer, Jr.
 date: 2020-01-14 07:16:36 -1100
 layout: post
-title: OWIN Open ID handler redirecting to logout page immediately after logging in
+title: MVC website redirecting to logout page immediately after logging in
 categories:
 - programming
 description: ''
 
 ---
-Over the past couple days I have been converting the authentication and authorization method on an existing MVC website to use Auth0, an Open ID provider. During the process of converting the website I ran into an issue where no matter what, after logging in the website would redirect to the logout page. After much trial and error I finally pinpointed the issue.
+Over the past couple days I have been converting the authentication and authorization method on an existing MVC website to use [Auth0](https://auth0.com/), an [OpenID](https://openid.net/) provider. During the process of converting the website's login and logout routines I ran into an issue where no matter what the website would redirect to the logout page immediately after hitting the login route. After much trial and error I finally pinpointed the issue.
 
 In my project's `web.config` I had the following code:
 
@@ -18,7 +18,7 @@ In my project's `web.config` I had the following code:
 </authentication>
 ```
 
-I changed this to `mode="None"` and the login page now works seamlessly.
+I changed this to `mode="None"` and the login page now works flawlessly.
 
 ```xml
 <authentication mode="None"></authentication>
