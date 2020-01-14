@@ -2,7 +2,7 @@
 author: Mark Fischer, Jr.
 date: 2020-01-14 07:16:36 -1100
 layout: post
-title: Open ID (Auth0) redirecting to logout page directly after logging in
+title: OWIN Open ID handler redirecting to logout page immediately after logging in
 categories:
 - programming
 description: ''
