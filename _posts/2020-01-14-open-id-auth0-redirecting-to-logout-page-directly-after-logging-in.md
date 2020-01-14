@@ -12,14 +12,14 @@ Over the past couple days I have been converting the authentication and authoriz
 
 In my project's `web.config` I had the following code:
 
-~~~xml
+```xml
 <authentication mode="Forms">
-	<forms loginUrl="\~/Auth/Logout" timeout="2880" />
+	<forms loginUrl="~/Auth/Logout" timeout="2880" />
 </authentication>
-~~~
+```
 
 I changed this to `mode="None"` and the login page now works seamlessly.
 
-~~~xml
+```xml
 <authentication mode="None"></authentication>
-~~~
+```
