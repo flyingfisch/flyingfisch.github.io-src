@@ -333,6 +333,18 @@ article.post {
     }
 }
 
+@include respond-to(medium-screens) {
+    .post-list {
+        .post {
+            border-top: $standardBorder;
+            
+            h1 {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
 blockquote {
     background-color: $background-highlight;
     font-size: .9em;
