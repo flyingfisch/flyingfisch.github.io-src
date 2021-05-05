@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post">
+<main class="post-list">
     <h1>Category: {{ page.category }}</h1>
 
     {% for post in site.categories[page.category] %}
@@ -28,4 +28,4 @@ layout: default
 
     </section>
     {% endfor %}
-</article>
+</main>
