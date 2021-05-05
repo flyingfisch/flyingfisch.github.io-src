@@ -169,6 +169,10 @@ h1 {
 h1.post-title {
     font-size: 3em;
     padding-top: .7em;
+    
+    @include respond-to(medium-screens) {
+        margin-top: 0;
+    }
 }
 
 a {
@@ -325,6 +329,7 @@ article.post {
 
     @include respond-to(medium-screens) {
         margin-top: 1em;
+        border-top: none;
     }
 }
 
