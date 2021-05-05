@@ -248,6 +248,11 @@ nav.article {
     }
 }
 
+main.post-list {
+    line-height: 2.1rem;
+    color: lighten($foreground, 15%);
+}
+
 article.post {
     line-height: 2.1rem;
     color: lighten($foreground, 15%);
