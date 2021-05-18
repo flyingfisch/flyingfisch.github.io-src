@@ -1,11 +1,12 @@
 ---
-date: 2021-05-18 02:36:16 -1100
+date: 2021-05-18T02:36:16.000-11:00
 layout: post
 author: Mark Fischer, Jr.
 title: My Hungarian Speaking Journey
 categories:
 - magyar
 description: ''
+featured_image: ''
 
 ---
 Jó napot!
