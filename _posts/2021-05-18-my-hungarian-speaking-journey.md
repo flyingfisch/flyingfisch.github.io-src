@@ -6,7 +6,7 @@ title: My Hungarian Speaking Journey
 categories:
 - magyar
 description: ''
-featured_image: ''
+featured_image: "/assets/bg.jpg"
 
 ---
 Jó napot!
