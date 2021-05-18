@@ -7,6 +7,12 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+  description: Displayed in social media snippets
 - name: date
   label: Date
   type: datetime
@@ -47,4 +53,3 @@ pages:
 - _posts/2020-01-14-open-id-auth0-redirecting-to-logout-page-directly-after-logging-in.md
 - _posts/2020-10-13-sharpie-stainless-steel-pen-refill-update.md
 - _posts/2021-05-18-my-hungarian-speaking-journey.md
-- _posts/is-a-bell-noisy-if-there-is-no-bike-to-attach-it-to.md
