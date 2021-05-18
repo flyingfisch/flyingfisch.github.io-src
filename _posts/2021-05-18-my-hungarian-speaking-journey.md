@@ -2,7 +2,7 @@
 date: 2021-05-18T02:36:16.000-11:00
 layout: post
 author: Mark Fischer, Jr.
-title: My Hungarian Speaking Journey
+title: My Hungarian Language Learning Journey
 categories:
 - magyar
 description: ''
