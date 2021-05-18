@@ -11,7 +11,7 @@
                                       {% else %}
                                       {{ site.description }}
                                       {% endif %}">
-    {% if page.featured_image %}
+    {% if page.featured_image and page.featured_image != '' and page.featured_image != ' ' %}
     <meta property="og:image" content="{{ page.featured_image }}">
     <meta property="twitter:image" content="{{ page.featured_image }}">
     {% endif %}
