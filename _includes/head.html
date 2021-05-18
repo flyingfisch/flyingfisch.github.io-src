@@ -11,6 +11,10 @@
                                       {% else %}
                                       {{ site.description }}
                                       {% endif %}">
+    {% if page.featured_image %}
+    <meta property="og:image" content="{{ page.featured_image }}">
+    <meta property="twitter:image" content="{{ page.featured_image }}">
+    {% endif %}
 
     <script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="/js/jquery.viewport.js"></script>
