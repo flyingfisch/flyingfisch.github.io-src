@@ -7,7 +7,7 @@
     <meta name="description" content="{% if page.description and page.description != '' and page.description != ' ' %}
                                       {{ page.description | truncate: 160 }}
                                       {% elsif page.content %}
-                                      {{ page.content | strip_html | strip_newlines | truncate: 160 }}
+                                      {{ page.content | strip_html | replace: '\n', ' ' | truncate: 160 }}
                                       {% else %}
                                       {{ site.description }}
                                       {% endif %}">
