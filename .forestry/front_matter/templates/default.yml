@@ -7,12 +7,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: featured_image
-  type: file
-  config:
-    maxSize: 64
-  label: Featured Image
-  description: Displayed in social media snippets
 - name: date
   label: Date
   type: datetime
@@ -44,6 +38,13 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+  description: Featured image for social media and search engines
+  default: "/assets/bg.jpg"
 pages:
 - _posts/2018-02-22-poetry.md
 - _posts/2018-03-20-automated-testing-with-mstest-and-selenium.md
