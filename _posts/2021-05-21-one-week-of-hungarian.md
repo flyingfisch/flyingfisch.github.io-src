@@ -28,7 +28,7 @@ Which segues into what happens when you use different word ordering in Hungarian
 
 ### Optional pronouns (and sometimes verbs)
 
-Hungarian doesn't always require a pronoun when the verb already conveys the information. For instance, _én látok egy almát_ and _látok egy almát_ both mean "I see an apple". The _-ok_ suffix on _lát_ tells us that the verb is in the first person, so adding _én_ is optional.
+Hungarian doesn't always require a pronoun when the verb already conveys that information. For instance, _én látok egy almát_ and _látok egy almát_ both mean "I see an apple". The _-ok_ suffix on _lát_ tells us that the verb is in the first person, so adding _én_ is optional.
 
 In a very special case verbs can also be optional. This is the case for the verb _van_ (he/she/it is) and only in the third person. So instead of saying _piros autó van_ we can say _piros autó_, and both mean "the car is red". We can't do this for other conjugations of _van_, however, so _jól vagyok_ (I am well) has to include _vagyok_.
 
