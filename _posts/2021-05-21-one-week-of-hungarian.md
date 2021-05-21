@@ -116,3 +116,7 @@ I've been using the following resources in addition to DuoLingo:
 * [Wiktionary](https://en.wiktionary.org/) - good for looking up definitions for Hungarian words and also their conjugations and suffixes
 * [Drops](https://languagedrops.com/) - this seems to be a good vocabulary trainer. I like that it uses pictures to represent the Hungarian words instead of English words. I do about five minutes of these exercises a day.
 * [/r/hungarian](https://www.reddit.com/r/hungarian/) - this is a great community of Hungarian learners and teachers/speakers. I've had a few positive experiences with various questions over the past week, as well as searching for answers to questions I had.
+
+## Update credits
+
+If I missed anyone else who critiqued this post, I apologize. Please see both the [DuoLingo thread](https://forum.duolingo.com/comment/49548192) and the [Reddit thread](https://www.reddit.com/r/hungarian/comments/nhydwb/critiquing_my_understanding_of_hungarian/) to see the kind help people put into correcting statements in this post. :)
