@@ -111,7 +111,7 @@ Also, each DuoLingo exercise has a discussion thread which you can access after 
 
 I've been using the following resources in addition to DuoLingo:
 
-* [HungarianReference.com](http://hungarianreference.com/) - though this website looks like it was made in 1999 and has an occasional English typo, it's actually a very good resource, especially for grammar.
+* [~~HungarianReference.com~~](http://hungarianreference.com/) ~~- though this website looks like it was made in 1999 and has an occasional English typo, it's actually a very good resource, especially for grammar.~~ Be aware that this website has Hungarian typos and inaccuracies as well and was not written by a native Hungarian speaker.
 * [Glosbe](https://glosbe.com/) - a useful dual-language dictionary
 * [Wiktionary](https://en.wiktionary.org/) - good for looking up definitions for Hungarian words and also their conjugations and suffixes
 * [Drops](https://languagedrops.com/) - this seems to be a good vocabulary trainer. I like that it uses pictures to represent the Hungarian words instead of English words. I do about five minutes of these exercises a day.
