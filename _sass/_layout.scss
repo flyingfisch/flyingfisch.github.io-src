@@ -369,7 +369,7 @@ blockquote {
     margin: 0;
     margin-bottom: 2em;
     
-    *:last-child {
+    p:last-child, ul:last-child, ol:last-child, *:last-child {
         margin-bottom: 0;
     }
 
