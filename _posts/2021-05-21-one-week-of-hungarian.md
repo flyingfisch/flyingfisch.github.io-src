@@ -46,7 +46,7 @@ The reason I'm leading with that is to demonstrate why I'm surprised when Hungar
 
 <figure> <img src="/assets/language-family-tree.jpg" alt="old world language family tree"> <figcaption>Family tree of the Old World languages, note how Hungarian and Finnish are so far removed from every other European language.</figcaption> </figure>
 
-One similarity I found interesting is that just as in English, _székeket festek_ (I paint the chairs) can either mean "I paint a picture of the chairs" or "I paint the chairs themselves".
+One similarity I found interesting is that just as in English, _székeket festek_ (I paint chairs) can either mean "I paint pictures of chairs" or "I paint actual chairs".
 
 Another interesting similarity is that just as in English we don't put "a" before a word starting with a vowel, instead adding a consonant to make it "an", in Hungarian the definite article _a_ gets changed to _az_ when it comes before a word starting with a vowel.
 
