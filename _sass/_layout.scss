@@ -280,6 +280,8 @@ article.post {
         text-align: center;
 
         img {
+            padding-left: $bodyGutter;
+            padding-right: $bodyGutter;
             float: none;
         }
 
