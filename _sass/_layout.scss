@@ -264,7 +264,11 @@ article.post {
     p {
         text-align: justify;
         hyphens: auto;
-        margin: 0;
+    }
+    
+    p, ol, ul {
+        margin-top: 0;
+        margin-bottom: .5em;
     }
 
     > p:first-of-type:not(.normal-font) {
