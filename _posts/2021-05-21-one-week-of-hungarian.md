@@ -1,8 +1,8 @@
 ---
-date: 2021-05-21 03:58:00 -1100
+date: 2021-05-21T03:58:00.000-11:00
 layout: post
 author: Mark Fischer, Jr.
-featured_image: "/assets/screenshot_20210521-081021_duolingo.jpg"
+featured_image: "/assets/duolingo-7-day-hu-streak.jpg"
 title: One week of Hungarian
 categories:
 - magyar
