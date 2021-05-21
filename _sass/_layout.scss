@@ -140,6 +140,8 @@ ol, ul {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $headerFontStack;
+    margin-top: 0;
+    margin-bottom: .3em;
 }
 
 h1 {
@@ -169,6 +171,8 @@ h1 {
 h1.post-title {
     font-size: 3em;
     padding-top: .7em;
+    margin-bottom: .5em;
+    margin-top: .5em;
     
     @include respond-to(medium-screens) {
         margin-top: 0;
@@ -260,8 +264,7 @@ article.post {
     p {
         text-align: justify;
         hyphens: auto;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin: 0;
     }
 
     > p:first-of-type:not(.normal-font) {
