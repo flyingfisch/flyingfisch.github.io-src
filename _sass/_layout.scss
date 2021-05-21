@@ -148,7 +148,9 @@ h1 {
     padding-top: 1em;
     text-transform: uppercase;
     color: $foreground;
+}
 
+h1, h2, h3 {
     &:hover .id {
         opacity: 1;
     }
