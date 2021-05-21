@@ -1,7 +1,7 @@
 var emptyCircle = '&#9675;';
 var filledCircle = '&#9679;';
 var headerIds = [];
-var headerSelector = 'article h1:not(.post-title)';
+var headerSelector = 'article h1:not(.post-title), article h2';
 
 var debounceSettings = {
 	delay: 250,
