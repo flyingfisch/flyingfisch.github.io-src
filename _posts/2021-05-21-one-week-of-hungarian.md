@@ -11,6 +11,8 @@ description: ''
 ---
 Today marks my first ever 7 day streak in DuoLingo. I have attempted to learn Hungarian before, but apparently not for 7 days in a row. During the past week I've learned some basic phrases and greetings, some of the basic grammar for the present tense singular, and I have a general sense of the word order rules. I can now confidently say _én magyar diák vagyok_ (I am a hungarian student). Well, somewhat confidently... _magyar_ is an adjective there and I'm not sure if it works the same as English where it can either mean "I am a student of Hungarian descent" or "I am a student of Hungarian". Perhaps there is more I need to learn in order to say it correctly.
 
+**UPDATE:** [_Magyarul tanulok_ is a better way to say this.](https://www.reddit.com/r/hungarian/comments/nhydwb/critiquing_my_understanding_of_hungarian/gyz1vgi?utm_source=share&utm_medium=web2x&context=3)
+
 <figure>
 <img src="/assets/duolingo-7-day-hu-streak.jpg" alt="my first seven day duolingo streak">
 <figcaption>My first 7 day DuoLingo streak</figcaption>
