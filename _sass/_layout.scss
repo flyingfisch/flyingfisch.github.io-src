@@ -201,6 +201,7 @@ header {
     h1 {
         color: $background;
         margin-bottom: 0;
+        margin-top: .45em;
     }
 
     a {
@@ -268,7 +269,7 @@ article.post {
     
     p, ol, ul {
         margin-top: 0;
-        margin-bottom: .5em;
+        margin-bottom: 2em;
     }
 
     > p:first-of-type:not(.normal-font) {
