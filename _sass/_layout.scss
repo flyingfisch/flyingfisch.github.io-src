@@ -367,6 +367,11 @@ blockquote {
     font-size: .9em;
     line-height: 2em;
     margin: 0;
+    margin-bottom: 2em;
+    
+    *:last-child {
+        margin-bottom: 0;
+    }
 
     &.pull-quote {
         font-size: 2em;
