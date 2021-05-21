@@ -1,5 +1,5 @@
 ---
-date: 2021-05-21 04:00:00 -1100
+date: 2021-05-21 03:58:00 -1100
 layout: post
 author: Mark Fischer, Jr.
 featured_image: "/assets/screenshot_20210521-081021_duolingo.jpg"
