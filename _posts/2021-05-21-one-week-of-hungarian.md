@@ -26,11 +26,31 @@ Hungarian word order is more flexible than English. However, it's important to r
 
 Which segues into what happens when you use different word ordering in Hungarian. The two places where the main emphasis is placed in a Hungarian sentence are the beginning of the sentence, and directly before the verb. In fact, the focus of words directly before the verb is so strong that it's required for question words like _mi_ (what) to be there. For instance, _mi látsz?_ (what do you see?) can't be rephrased as _látsz mi?_. So when you place a word in a different place in the sentence, you are usually not changing the literal meaning of the sentence, but you are changing the emphasis.
 
-### Optional pronouns (and sometimes verbs)
+**UPDATE:** My understanding of this is incorrect [Judit294350](https://forum.duolingo.com/comment/49548192#49550007) (and [jzsuzsi](https://forum.duolingo.com/comment/49548192#49549971)) kindly pointed out[ ](https://forum.duolingo.com/comment/49548192#49550007)on the DuoLingo discussion boards:
+
+> "te a fiatal fiú látsz?" - Sorry several mistakes here.
+>
+> 1: You do not normally use the pronoun. If you do it is for emphasis and this sentence's emphasis is "a fiatal fiú"
+>
+> 2: The direct object has t be put in the accusative "a fiatal fiút"
+>
+> 3: A definite diret object uses a different conjugation - the definite conjugation - which you would not have learnt yet - so látod not látsz.
+>
+> 4: I also have a sneaky suspicion it would be meglátod.
+
+### Optional pronouns (~~and sometimes verbs~~)
 
 Hungarian doesn't always require a pronoun when the verb already conveys that information. For instance, _én látok egy almát_ and _látok egy almát_ both mean "I see an apple". The _-ok_ suffix on _lát_ tells us that the verb is in the first person, so adding _én_ is optional.
 
-In a very special case verbs can also be optional. This is the case for the verb _van_ (he/she/it is) and only in the third person. So instead of saying _piros autó van_ we can say _piros autó_, and both mean "the car is red". We can't do this for other conjugations of _van_, however, so _jól vagyok_ (I am well) has to include _vagyok_.
+~~In a very special case verbs can also be optional. This is the case for the verb _van_ (he/she/it is) and only in the third person. So instead of saying _piros autó van_ we can say _piros autó_, and both mean "the car is red". We can't do this for other conjugations of _van_, however, so _jól vagyok_ (I am well) has to include _vagyok_.~~ See update below.
+
+**UPDATE:** [jzuzsi pointed out](https://forum.duolingo.com/comment/49548192#49549971) that the second paragraph here is incorrect.
+
+> "In a very special case verbs can also be optional. This is the case for the verb van (he/she/it is) and only in the third person. So instead of saying piros autó van we can say piros autó, and both mean “the car is red”. We can’t do this for other conjugations of van, however, so jól vagyok (I am well) has to include vagyok."
+>
+> In this case it is not optional. You **have to** omit van. The car is red. Az autó piros.
+>
+> You said "and both mean the car is red".... actually **none** of them means that. "piros autó van" can mean "There is a red car" and "piros autó" = "red car".
 
 ### Genderless grammar
 
@@ -38,7 +58,7 @@ Hungarian does not have grammatical gender, so there aren't different versions o
 
 ### Unexpected similarities to English
 
-The Hungarian people (Magyars) descended from the Ugrians, a people that lived near the Ural mountains. [Some of these people moved west](https://en.wikipedia.org/wiki/Hungarian_prehistory) at some point. These people later split again, with one group, the Finns, going north, and the other group, the Magyars, settling in the Carpathian basin. As a result, the Hungarian language has very little in common with other European languages, it's closest relatives being Khanty and Mansi which are spoken by remaining Uralic tribes to this day. Its closest relatives in Europe are Estonian and Finnish.
+The Hungarian people (Magyars) descended from the ~~Ugrians~~ Ugrics ([thank you csepcsenyi!](https://www.reddit.com/r/hungarian/comments/nhydwb/critiquing_my_understanding_of_hungarian/gyz1vgi?utm_source=share&utm_medium=web2x&context=3)), a people that lived near the Ural mountains. [Some of these people moved west](https://en.wikipedia.org/wiki/Hungarian_prehistory) at some point. These people later split again, with one group, the Finns, going north, and the other group, the Magyars, settling in the Carpathian basin. As a result, the Hungarian language has very little in common with other European languages, it's closest relatives being Khanty and Mansi which are spoken by remaining Uralic tribes to this day. Its closest relatives in Europe are Estonian and Finnish.
 
 <figure> <img src="/assets/ugric-languages.png" alt="map showing the location of Ugric languages today"> <figcaption>Hungarian and its closest relatives</figcaption> </figure>
 
@@ -50,7 +70,9 @@ One similarity I found interesting is that just as in English, _székeket festek
 
 Another interesting similarity is that just as in English we don't put "a" before a word starting with a vowel, instead adding a consonant to make it "an", in Hungarian the definite article _a_ gets changed to _az_ when it comes before a word starting with a vowel.
 
-I'm not 100% sure on this, but from what I can tell "objects" of _van_ are not in the accusative case in Hungarian, just as "objects" of "is" are not in the objective case in English. Whether Hungarian has predicate nominatives or if this is for some other grammatical reason is a point of future research for me.
+I'm not 100% sure on this, but from what I can tell ~~"objects"~~ predicates of _van_ are not in the accusative case in Hungarian, just as ~~"objects"~~ predicates of "is" are not in the objective case in English. Whether Hungarian has predicate nominatives or if this is for some other grammatical reason is a point of future research for me.
+
+**UPDATE:** [jzuzsi confirmed](https://forum.duolingo.com/comment/49548192#49550341) that these are predicates and not objects in both English and Hungarian, and are in the nominative case.
 
 There are also certain vocabulary similarities especially with modern words, like _telefon_ meaning "telephone", but these are less interesting to me since I'm pretty sure they're loan words from the rest of Europe and really just show the influence English has on the world's languages.
 
