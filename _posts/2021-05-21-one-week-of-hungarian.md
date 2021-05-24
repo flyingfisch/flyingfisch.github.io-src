@@ -28,7 +28,7 @@ Hungarian word order is more flexible than English. However, it's important to r
 
 Which segues into what happens when you use different word ordering in Hungarian. The two places where the main emphasis is placed in a Hungarian sentence are the beginning of the sentence, and directly before the verb. In fact, the focus of words directly before the verb is so strong that it's required for question words like _mi_ (what) to be there. For instance, _mi látsz?_ (what do you see?) can't be rephrased as _látsz mi?_. So when you place a word in a different place in the sentence, you are usually not changing the literal meaning of the sentence, but you are changing the emphasis.
 
-**UPDATE:** My understanding of this is incorrect [Judit294350](https://forum.duolingo.com/comment/49548192#49550007) (and [jzsuzsi](https://forum.duolingo.com/comment/49548192#49549971)) kindly pointed out[ ](https://forum.duolingo.com/comment/49548192#49550007)on the DuoLingo discussion boards:
+**UPDATE:** My understanding of this is incorrect [Judit294350](https://forum.duolingo.com/comment/49548192#49550007) (and [jzsuzsi](https://forum.duolingo.com/comment/49548192#49549971)) kindly pointed out on the DuoLingo discussion boards:
 
 > "te a fiatal fiú látsz?" - Sorry several mistakes here.
 >
