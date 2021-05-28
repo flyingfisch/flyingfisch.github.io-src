@@ -9,22 +9,21 @@ categories:
 description: ''
 
 ---
-It has now been 2 weeks since I started learning Hungarian. In the past week I've done DuoLingo daily, a group Zoom lesson, and a private Hungarian lesson last night. I've also done independent research into different aspects of the language that interest me, as they come up in my more structured learning.
+It has now been 2 weeks since I started learning Hungarian. In the past week I've done DuoLingo daily, a group Zoom lesson, and a private Hungarian lesson last night. I've also done independent research into different aspects of the language that interest me, as they come up in my more structured learning. Some of the initial learning fever has worn off and I can feel myself starting to fall into a sustainable pace. I'm familiar with this feeling since it used to happen back when learning programming languages was new for me: I'd start off knowing nothing and feeling simultaneously overwhelmed and awestruck by the breadth and depth of information I was consuming. This caused (and still causes) my initial learning period to be very intense while I try to establish basic level understanding in a programming language's syntax or a spoken language's basic grammar and vocabulary.
 
-<figure> <img src="/assets/hungarian-flag-waving.jpg" alt="Hungarian flag waving in the wind"> <figcaption>[Image Credit](https://unsplash.com/photos/KHK_OnEeTU8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)</figcaption> </figure>
+<figure> <img src="/assets/hungarian-flag-waving.jpg" alt="Hungarian flag waving in the wind"> <figcaption><a href="https://unsplash.com/photos/KHK_OnEeTU8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image Credit</a></figcaption> </figure>
 
 ## My learning experience so far
 
-Some of the initial learning fever has worn off and I can feel myself starting to fall into a sustainable pace. I'm familiar with this feeling since it used to happen back when learning programming languages was new for me: I'd start off knowing nothing and feeling simultaneously overwhelmed and awestruck by the breadth and depth of information I was consuming. This caused (and still causes) my initial learning period to be very intense while I try to establish basic level understanding in a programming language's syntax or a spoken language's basic grammar and vocabulary.
+
 
 For me, learning something brand new feels metaphorically like being hit by a giant wave of information and having no way to dissect it. I then start to understand bits and pieces of it and eventually get to a point where some very small part of the language I start to feel comfortable with. For programming languages this was being able to write and understand my first chunk of meaningful code, usually a small program that responded to user input and maybe had a couple `if` statements for different control flow. For Hungarian that point was when I could start saying basic present tense sentences with a subject, verb, and object like _János egy almát lát_ (János sees an apple). I see small nucleus of understand like a beachhead: it's a starting point that I can use to explore in many different directions.
 
 <figure>   
 <img src="/assets/red-car-hu.jpg" alt="A red car in Hungary">   
 <figcaption>  
-Egy piros autó (a red car)
-
-[Image Credit](https://unsplash.com/photos/Wcs-zY60Yq4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)  
+Egy piros autó (a red car)<br>
+<a href="https://unsplash.com/photos/Wcs-zY60Yq4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image Credit</a>
 </figcaption>   
 </figure>
 
@@ -38,10 +37,9 @@ These little forays into different aspects of the language while building on thi
 
 I'm writing this blog post as an exercise for myself, since teaching something is one of the best ways to learn, but also as a way to document my process of learning Hungarian in the hopes that it can help or encourage someone else. The Hungarian language specifically can be discouraging to start learning since Hungarian has a reputation for being impossible for English speakers to learn, or at least extremely difficult. And maybe it is difficult. Aside from taking a year of Latin in high school I have nothing to compare it to. Perhaps if I had learned an easier language first, Hungarian would seem more overwhelming, who knows. But what I do know is that this language is not impossible.
 
-<figure> <img src="/assets/hegymagas-balaton-view.jpg" alt="A view of Lake Balaton"> <figcaption>  
-A view of Lake Balaton from Hegymagas, Hungary.
-
-[Image Credit](https://unsplash.com/photos/zSmr3KBXF9g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)  
+<figure><img src="/assets/hegymagas-balaton-view.jpg" alt="A view of Lake Balaton"><figcaption>  
+A view of Lake Balaton from Hegymagas, Hungary.<br>
+<a href="https://unsplash.com/photos/zSmr3KBXF9g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image Credit</a> 
 </figcaption> </figure>
 
 Something I find interesting is that language learning difficulty goes both ways. If Hungarian is difficult for English speakers, then English is also difficult for Hungarian speakers. My grandmother learned English in her teens, and spoke perfect English for the rest of her life with only the faintest of an accent. At this very moment there are thousands, maybe millions of Chinese speakers who are learning English and will succeed. 
