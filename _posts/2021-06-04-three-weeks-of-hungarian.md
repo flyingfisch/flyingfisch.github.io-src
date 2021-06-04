@@ -39,6 +39,7 @@ The man walks outside. The man is not inside. He walks among/between the trees. 
 ## Resources
 
 * [Word order for adverbs of frequency](https://myhunlang.com/2010/09/28/vocabulary-adverbs-of-frequency/) - I was having trouble understanding where adverbs of frequency belong in a sentence and this blog post helped
+* UPDATE: Just found [this website](http://hungarianonline.hu/index.php), and I was able to read [this article](http://hungarianonline.hu/kolbaszos-magyar-reggeli) without much trouble! I'm excited that I've finally found something I can read that isn't too difficult!
 
 ## Corrections
 
