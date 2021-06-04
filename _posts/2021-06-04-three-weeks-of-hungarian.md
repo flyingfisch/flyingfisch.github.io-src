@@ -1,5 +1,5 @@
 ---
-date: 
+date: 2021-06-04 05:00:00 -1100
 layout: post
 author: Mark Fischer, Jr.
 featured_image: "/assets/bg.jpg"
