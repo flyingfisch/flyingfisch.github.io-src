@@ -13,6 +13,6 @@ I've been learning Hungarian for a little over a month now. Due to being busy in
 
 Because of all this, this post is shorter than I the previous ones. I'll leave you with a feature of the Hungarian language that I learned recently and found cool.
 
-Hungarian has verb endings depending on the person of the subject. So _szeret**sz **_is "you love", _szeret**ek**_ is "I love", etc. However, there is a special situation where the person of the subject _and_ the object matters. When the subject is in the first person ("I/_én_" or "we/_mi_") and the object is in the second person ("you/_téged_" or "y'all/_titeket_") there is a special verb ending of **-lek**/**-lak**.
+Hungarian has verb endings depending on the person of the subject. So _szeret**sz** _is "you love", _szeret**ek**_ is "I love", etc. However, there is a special situation where the person of the subject _and_ the object matters. When the subject is in the first person ("I/_én_" or "we/_mi_") and the object is in the second person ("you/_téged_" or "y'all/_titeket_") there is a special verb ending of **-lek**/**-lak**.
 
 So, _szeret**lek**_ means "I love you". _Szeretlek titeket_ means "I love y'all". I think this is an interesting language feature, that the subject and object can be completely summed up in a verb ending.
