@@ -6,6 +6,7 @@ gemspec
 gem "bundle"
 
 gem "jekyll"
+gem "jekyll-sass-converter", "~> 2.0"
 gem 'pygments.rb'
 gem "tzinfo"
 gem "tzinfo-data"
