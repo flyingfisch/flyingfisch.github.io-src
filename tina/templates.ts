@@ -2,6 +2,26 @@ import type { TinaField } from "tinacms";
 export function defaultFields() {
   return [
     {
+      label: "Post Metadata",
+      name: "metadata",
+      type: "object",
+      fields: [
+        {
+          type: "string",
+          name: "description",
+          label: "Description",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "image",
+          name: "featured_image",
+          label: "Featured Image",
+        },
+      ]
+    },
+    {
       type: "string",
       name: "title",
       label: "Title",
@@ -10,6 +30,12 @@ export function defaultFields() {
       type: "datetime",
       name: "date",
       label: "Date",
+    },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Post Body",
+      isBody: true,
     },
     {
       type: "string",
@@ -29,26 +55,6 @@ export function defaultFields() {
       type: "string",
       name: "author",
       label: "Author",
-    },
-    {
-      type: "string",
-      name: "description",
-      label: "Description",
-      ui: {
-        component: "textarea",
-      },
-    },
-    {
-      type: "image",
-      name: "featured_image",
-      label: "Featured Image",
-    },
-    {
-      type: "rich-text",
-      name: "body",
-      label: "Post Body",
-      description: "This is the markdown body",
-      isBody: true,
     },
   ] as TinaField[];
 }

@@ -5,18 +5,7 @@ author: 'Mark Fischer, Jr.'
 title: My Hungarian Language Learning Journey
 categories:
   - magyar
-description: ''
-featured_image: /assets/bg.jpg
-_template: default
 ---
-
-
-
-
-
-
-
-
 
 Jó napot!
 

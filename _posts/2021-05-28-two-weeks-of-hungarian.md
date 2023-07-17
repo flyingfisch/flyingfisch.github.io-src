@@ -2,12 +2,11 @@
 date: 2021-05-28 04:00:57 -1100
 layout: post
 author: Mark Fischer, Jr.
-featured_image: "/assets/hungarian-flag-waving.jpg"
 title: Two weeks of Hungarian
 categories:
 - magyar
-description: ''
-
+metadata:
+  featured_image: "/assets/hungarian-flag-waving.jpg"
 ---
 It has now been 2 weeks since I started learning Hungarian. In the past week I've used DuoLingo daily, attended a group Zoom lesson, and I attended a private Hungarian lesson last night. I've also done independent research into different aspects of the language that interest me, as they come up in my more structured learning. Some of the initial learning fever has worn off and I can feel myself starting to fall into a sustainable pace. I'm familiar with this feeling since it used to happen back when learning programming languages was new for me: I'd start off knowing nothing and feeling simultaneously overwhelmed and awestruck by the breadth and depth of information I was consuming. This caused (and still causes) my initial learning period to be very intense while I try to establish basic level understanding in a programming language's syntax or a spoken language's basic grammar and vocabulary.
 

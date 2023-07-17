@@ -14,7 +14,7 @@ layout: default
 
             {% unless post.categories == empty %}
             {% comment %}<strong>Tags:</strong> {{ post.categories | category_links }}<br>{% endcomment %}
-            <strong>Tags:</strong> {{ post.categories | join: ', ' }}<br>
+            <strong>Categories:</strong> {{ post.categories | join: ', ' }}<br>
             {% endunless %}
 
             {% if post.meta %}<strong>Meta:</strong> {{ post.meta }}{% endif %}
@@ -24,7 +24,8 @@ layout: default
             <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
             <p>
-                {{ post.content | markdownify | replace: '</h1>', '&#182;' | replace: '</h2>', '&#182;' | replace: '</p>', '&#182;' | strip_html | truncatewords: 50 | replace: '&#182;', '<span class="light"> &#182;</span>' }}
+                {{ post.content | markdownify | replace: '</h1>', '&#182;' | replace: '</h2>', '&#182;' | replace: '</p>
+            ', '&#182;' | strip_html | truncatewords: 50 | replace: '&#182;', '<span class="light"> &#182;</span>' }}
             </p>
         </section>
     </article>

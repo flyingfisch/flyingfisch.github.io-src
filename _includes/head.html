@@ -3,18 +3,25 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description and page.description != '' and page.description != ' ' %}
-                                      {{ page.description | truncate: 160 }}
-                                      {% elsif page.excerpt %}
-                                      {{ page.content | strip_html | replace: '\n', ' ' | truncate: 160 }}
-                                      {% else %}
-                                      {{ site.description }}
-                                      {% endif %}">
-    
-    {% if page.featured_image and page.featured_image != '' and page.featured_image != ' ' %}
-    <meta property="og:image" content="{{ page.featured_image }}">
-    <meta property="twitter:image" content="{{ page.featured_image }}">
+    <title>
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
+
+    {% if page.metadata.description and page.metadata.description != '' and page.metadata.description != ' ' %}
+        <meta name="description" content="{{ page.metadata.description | truncate: 160 }}">
+    {% elsif page.excerpt %}
+        <meta name="description" content="{{ page.content | strip_html | replace: '\n', ' ' | truncate: 160 }}">
+    {% else %}
+        <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.metadata.featured_image and page.metadata.featured_image != '' and page.metadata.featured_image != ' ' %}
+        <meta property="og:image" content="{{ page.metadata.featured_image }}">
+        <meta property="twitter:image" content="{{ page.metadata.featured_image }}">
     {% endif %}
 
     <script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>

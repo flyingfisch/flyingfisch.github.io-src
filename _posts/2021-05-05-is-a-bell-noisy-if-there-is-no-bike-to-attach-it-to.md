@@ -4,9 +4,10 @@ layout: post
 author: Mark Fischer, Jr.
 title: Is a bell noisy if there is no bike to attach it to
 categories: []
-description: There was once a young lady named Bella // Who fancied herself at Coachella...
-
+metadata:
+  description: There was once a young lady named Bella // Who fancied herself at Coachella...
 ---
+
 There was once a young lady named Bella  
 Who fancied herself at Coachella  
 She wanted a blog post  

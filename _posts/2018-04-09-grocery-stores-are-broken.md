@@ -5,21 +5,13 @@ date: 2018-04-08T16:13:38.000Z
 layout: post
 categories:
   - rant
-description: >-
-  Imagine walking into a new grocery store. What are the first things you
-  notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of low
-  quality music on a lower quality speaker, quiet enough that you can't tell
-  what's playing, loud enough that you can't ignore it.
-_template: default
+metadata:
+  description: >-
+    Imagine walking into a new grocery store. What are the first things you
+    notice? Maybe it's the dim fluorescent lights. Maybe it's the sound of low
+    quality music on a lower quality speaker, quiet enough that you can't tell
+    what's playing, loud enough that you can't ignore it.
 ---
-
-
-
-
-
-
-
-
 
 Imagine walking into a new grocery store. What are the first things you notice? Maybe it's the dim fluorescent lights. Maybe it's the [sound of](https://youtu.be/wbQSAdU4Qb4?t=40s) low quality [music](https://youtu.be/wbQSAdU4Qb4?t=40s) on a lower quality speaker, quiet enough that you can't tell what's playing, loud enough that you can't ignore it.
 

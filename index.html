@@ -1,16 +1,16 @@
 ---
 layout: default
-
 ---
+
 <main class="post-list">
     <div>
         <p style="text-align: center;">Hello, I'm Mark Fischer. I am a Digital Experience Architect at ArcBest.</p>
         <p style="text-align: center;">
-          <a href="https://github.com/flyingfisch">GitHub</a> &#8729;
-          <a href="http://codepen.io/flyingfisch/">Codepen</a> &#8729;
-          <a href="https://twitter.com/flyingfisch_">Twitter</a> &#8729;
-          <a href="https://www.linkedin.com/in/flyingfisch">LinkedIn</a> &#8729;
-          <a href="https://stackoverflow.com/story/markfischerjr">StackOverflow</a>
+            <a href="https://github.com/flyingfisch">GitHub</a> &#8729;
+            <a href="http://codepen.io/flyingfisch/">Codepen</a> &#8729;
+            <a href="https://twitter.com/flyingfisch_">Twitter</a> &#8729;
+            <a href="https://www.linkedin.com/in/flyingfisch">LinkedIn</a> &#8729;
+            <a href="https://stackoverflow.com/story/markfischerjr">StackOverflow</a>
         </p>
     </div>
 
@@ -22,8 +22,7 @@ layout: default
             <strong>Posted:</strong> {{ post.date | date: "%b %-d, %Y" }}<br>
 
             {% unless post.categories == empty %}
-            {% comment %}<strong>Tags:</strong> {{ post.categories | category_links }}<br>{% endcomment %}
-            <strong>Tags:</strong> {{ post.categories | join: ', ' }}<br>
+            <strong>Categories:</strong> {{ post.categories | join: ', ' }}<br>
             {% endunless %}
 
             {% if post.meta %}<strong>Meta:</strong> {{ post.meta }}{% endif %}
@@ -33,8 +32,15 @@ layout: default
             <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
             <p>
-                {{ post.content | replace: '</h1>', '&#182;' | replace: '</h2>', '&#182;' | replace: '</p>', '&#182;' | strip_html | truncatewords: 50 | replace: '&#182;', '<span class="light"> &#182;</span>' }}
-                {% comment %}<strong><a href="{{ post.url | prepend: site.baseurl }}">more</a></strong>{% endcomment %}
+            {{ post.content
+                | strip
+                | replace: '</h1>', '&#182;'
+                | replace: '</h2>', '&#182;'
+                | replace: '</p>','&#182;'
+                | strip_html
+                | truncatewords: 50
+                | replace: '&#182;', '<span class="light"> &#182;</span>'
+            }}
             </p>
         </section>
     </article>

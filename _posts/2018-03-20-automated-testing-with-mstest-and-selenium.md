@@ -5,16 +5,7 @@ date: '2018-03-20 00:00:00 +0000'
 layout: post
 categories:
   - testing
-_template: default
 ---
-
-
-
-
-
-
-
-
 
 I've started implementing automated testing on a project I'm working on using MSTest and Selenium. I've run into several issues that I couldn't find answers for online so I thought I'd document my findings here.
 
