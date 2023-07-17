@@ -24,11 +24,21 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: values => {
+              return `${values?.date}-${values?.title?.toLowerCase().replace(/ /g, '-')}`;
+            }
+          }
+        },
         defaultItem: () => {
           return {
+            title: "New Post",
             layout: "post",
             author: "Mark Fischer, Jr.",
             published: false,
+            date: new Date().toISOString().split('T')[0]
           }
         },
         fields: defaultFields(),

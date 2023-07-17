@@ -2,9 +2,35 @@ import type { TinaField } from "tinacms";
 export function defaultFields() {
   return [
     {
-      label: "Published",
-      name: "published",
-      type: "boolean",
+      type: "string",
+      name: "title",
+      label: "Title",
+      isTitle: true,
+      required: true,
+    },
+    {
+      type: "datetime",
+      name: "date",
+      label: "Date",
+      required: true,
+      ui: {
+        dateFormat: "YYYY-MM-DD",
+      },
+    },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Post Body",
+      isBody: true,
+    },
+    {
+      type: "string",
+      name: "categories",
+      label: "Categories",
+      list: true,
+      ui: {
+        component: "tags",
+      },
     },
     {
       label: "Post Metadata",
@@ -28,31 +54,6 @@ export function defaultFields() {
     },
     {
       type: "string",
-      name: "title",
-      label: "Title",
-    },
-    {
-      type: "datetime",
-      name: "date",
-      label: "Date",
-    },
-    {
-      type: "rich-text",
-      name: "body",
-      label: "Post Body",
-      isBody: true,
-    },
-    {
-      type: "string",
-      name: "categories",
-      label: "Categories",
-      list: true,
-      ui: {
-        component: "tags",
-      },
-    },
-    {
-      type: "string",
       name: "author",
       label: "Author",
     },
@@ -60,6 +61,11 @@ export function defaultFields() {
       type: "string",
       name: "layout",
       label: "Layout",
+    },
+    {
+      label: "Published",
+      name: "published",
+      type: "boolean",
     },
   ] as TinaField[];
 }
