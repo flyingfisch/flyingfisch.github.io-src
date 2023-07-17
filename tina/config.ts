@@ -11,58 +11,22 @@ export default defineConfig({
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "",
+    publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "",
+      mediaRoot: "assets",
+      publicFolder: "./",
     },
   },
   schema: {
     collections: [
       {
-        format: "md",
-        label: "Uploads",
-        name: "uploads",
-        path: "_uploads",
-        match: {
-          include: "**/*",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "yml",
-        label: "Config",
-        name: "config",
-        path: ".",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_config",
-        },
-        fields: [
-          {
-            name: "dummy",
-            label: "Dummy field",
-            type: "string",
-            description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
-          },
-        ],
-      },
+        name: "post",
+        label: "Posts",
+        path: "_posts",
+        fields: defaultFields(),
+      }
     ],
   },
 });

@@ -15,6 +15,9 @@ _template: default
 
 
 
+
+
+
 This week I continued to progress in DuoLingo. My goal for this week was to learn definite conjugations of common verbs, but although I made some progress towards that end, I haven't made as much progress as I had hoped. Instead I spent my past week drilling my understanding of the vocabulary I have learned so far, accusative and plural endings for nouns, and plural person indefinite verb conjugations (we see, you see, they see). I've gotten to a point where I think I need to practice what I know a little bit more before moving on to keep things from becoming too confusing.
 
 I'm hoping that in the coming week I can get comfortable enough with my current knowledge to continue progressing. Outside of DuoLingo, I've started trying to translate some of the articles on the [Hungarian National Geographic website]() using [Glosbe](https://glosbe.com/) as needed to look up the definition of words. It's pretty difficult for me to read those still, but I'm hoping that the exposure to the language with pictures and context will be beneficial.

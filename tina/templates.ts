@@ -43,5 +43,12 @@ export function defaultFields() {
       name: "featured_image",
       label: "Featured Image",
     },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Post Body",
+      description: "This is the markdown body",
+      isBody: true,
+    },
   ] as TinaField[];
 }

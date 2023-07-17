@@ -15,6 +15,9 @@ _template: default
 
 
 
+
+
+
 Jó napot!
 
 I have decided to finally make a serious attempt at learning Hungarian. I will be trying to blog in Hungarian occasionally, and then posting the English translation in the second half of the post.

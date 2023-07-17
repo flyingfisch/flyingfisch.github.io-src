@@ -13,6 +13,9 @@ _template: default
 
 
 
+
+
+
 I've started implementing automated testing on a project I'm working on using MSTest and Selenium. I've run into several issues that I couldn't find answers for online so I thought I'd document my findings here.
 
 # Creating the test project
