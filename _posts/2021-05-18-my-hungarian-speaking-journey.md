@@ -1,14 +1,20 @@
 ---
-date: 2021-05-18T02:36:16.000-11:00
+date: 2021-05-18T13:36:16.000Z
 layout: post
-author: Mark Fischer, Jr.
+author: 'Mark Fischer, Jr.'
 title: My Hungarian Language Learning Journey
 categories:
-- magyar
+  - magyar
 description: ''
-featured_image: "/assets/bg.jpg"
-
+featured_image: /assets/bg.jpg
+_template: default
 ---
+
+
+
+
+
+
 Jó napot!
 
 I have decided to finally make a serious attempt at learning Hungarian. I will be trying to blog in Hungarian occasionally, and then posting the English translation in the second half of the post.
