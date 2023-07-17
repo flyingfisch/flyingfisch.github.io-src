@@ -1,12 +1,13 @@
 ---
 title: 'Building a Modern Website: Part 0'
-date: 2015-05-25 00:00:00 +0000
+date: 2015-05-25T00:00:00.000Z
 categories:
-- frontend
-- design
-- tutorial
-- modern-website-series
+  - frontend
+  - design
+  - tutorial
+  - modern-website-series
 layout: post
+published: true
 ---
 
 This is the first of a [3-post series](/modern-website-series/) series on building a modern website. The demo website is a fictional sailing club's homepage. This post covers the mockup process and building the header. The next part will go into the navigation bar and body text.
@@ -27,7 +28,6 @@ Since this is going to be responsive, we need to have a mobile layout as well.
 <figcaption>Wireframe for mobile layout.</figcaption>
 </figure>
 
-
 # Colors
 
 The colors for this site are going to be blue and white. I got the exact shades straight from the [Tango project's color palette](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines#Color_Palette).
@@ -43,13 +43,13 @@ The first thing I like to do before actually designing the site is find a font t
 
 Here is the `link` tag for the fonts, we're just going to add it into the header. Although there are other methods of using Google Fonts, the `link` tag has the best browser support.
 
-~~~markup
+```markup
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-~~~
+```
 
 We will also be using [Normalize.css](https://necolas.github.io/normalize.css/) which basically gives you a starting point that looks the same across all browsers. Since we want to override it's styles with ours we put it's link tag first. Our `head` tag should look something like this now:
 
-~~~markup
+```markup
 <head>
     <title>R. S. Sailing Club</title>
 
@@ -57,11 +57,11 @@ We will also be using [Normalize.css](https://necolas.github.io/normalize.css/) 
     <link href="/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 </head>
-~~~
+```
 
 We're going to be using [SASS](http://sass-lang.com/) for the stylesheets, but don't worry, I'll explain any nuances we come across in the project. For now, just think of it as CSS with extra features. Here is our stylesheet so far:
 
-~~~scss
+```scss
 html, body {
     width: 100%;
     height: 100%;
@@ -79,17 +79,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
-~~~
+```
 
 # Designing the header
 
 Now that the fonts have been selected, we can start on the header. The markup for now is pretty simple.
 
-~~~markup
+```markup
 <header>
     <h1>R. S. Sailing Club</h1>
 </header>
-~~~
+```
 
 Now let's get into the CSS. We want the background of the header to be dark blue, and the font should be white. Here is the site so far:
 
@@ -104,45 +104,45 @@ This is probably a good time to go over a couple important SASS features: variab
 
 Variables names start with a `$`, and can contain any information you can put in a property. For example:
 
-~~~scss
+```scss
 $my-border: 2px solid black;
 
 div {
     border: $my-border;
 }
-~~~
+```
 
 That compiles to this CSS:
 
-~~~css
+```css
 div {
     border: 2px solid black;
 }
-~~~
+```
 
 # Nested Selectors
 
 If you want to select an element inside another element, you can nest the selectors. Here is an example:
 
-~~~scss
+```scss
 header {
     h1 {
         color: #fff;
     }
 }
-~~~
+```
 
 This compiles to:
 
-~~~css
+```css
 header h1 {
     color: #fff;
 }
-~~~
+```
 
 You can also use the `&` to select the parent element, like this:
 
-~~~scss
+```scss
 a {
     color #000;
     text-decoration: none;
@@ -151,11 +151,11 @@ a {
         text-decoration: underline;
     }
 }
-~~~
+```
 
 Which compiles into this CSS:
 
-~~~css
+```css
 a {
     color: #000;
     text-decoration: none;
@@ -163,7 +163,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
-~~~
-
-
-
+```

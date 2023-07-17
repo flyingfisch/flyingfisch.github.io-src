@@ -1,13 +1,14 @@
 ---
 title: Using REST Inside Programs
-date: 2015-05-17 00:00:00 +0000
+date: 2015-05-17T00:00:00.000Z
 categories:
-- programming
-- web
+  - programming
+  - web
 layout: post
+published: true
 ---
 
-Rich Hickey proposed an interesting idea in his [keynote at RailsConf 2012][1].
+Rich Hickey proposed an interesting idea in his [keynote at RailsConf 2012](https://www.youtube.com/watch?v=rI8tNMsozo0).
 The idea, if I understand correctly, is that if serialization is good between
 servers as a way to separate concerns, then why don't we do it between different
 sections of code on the same server?
@@ -15,13 +16,13 @@ sections of code on the same server?
 Using REST between different code blocks seems like a good idea, but serialization seems a bit useless
 in my humble opinion, since it only seems to add complexity to the program.
 
-I decided to write a little [proof-of-concept][2] for this program in Python.
+I decided to write a little [proof-of-concept](https://github.com/flyingfisch/python-rest-poc/commits?author=flyingfisch) for this program in Python.
 There is a module `rest.py` which currently contains one class: `CRUD`. `CRUD`
 has four built-in functions: `create()`, `read()`, `update()`, and `delete()`.
 
 Here is the documentation for each of the built-in functions:
 
-~~~python
+```python
 create(object)
 """
 Creates a new object.
@@ -49,12 +50,12 @@ Deletes object from list.
 Keyword arguments:
 objectId -- Key of object to delete
 """
-~~~
+```
 
 The built-in commands operate on an internal list `_objects`, accessible through
 `read()`. Here is a simple example using the default methods.
 
-~~~python
+```python
 from rest import CRUD
 
 # A dictionary entry class
@@ -86,9 +87,6 @@ Dictionary.Delete(0)
 
 # Print the (empty) dictionary out to the terminal
 print(Dictionary.read())
-~~~
+```
 
 Not sure how useful this is going to be, but it was fun to code up!
-
-  [1]:https://www.youtube.com/watch?v=rI8tNMsozo0
-  [2]:https://github.com/flyingfisch/python-rest-poc/commits?author=flyingfisch

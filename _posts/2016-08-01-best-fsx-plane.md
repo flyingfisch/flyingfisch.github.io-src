@@ -1,10 +1,11 @@
 ---
 title: 'FSX Review: L-39C Freeware'
-date: 2016-08-01 00:00:00 +0000
+date: 2016-08-01T00:00:00.000Z
 categories:
-- flight-simulator
-- fsx
+  - flight-simulator
+  - fsx
 layout: post
+published: true
 ---
 
 I just came across this excellent L-39C this weekend, and I had to share. Interestingly, the only references to it seem to be in a [forum thread on SimOuthouse](http://www.sim-outhouse.com/sohforums/showthread.php?92435-DoughBree-L-39C-%28FSX%29). To my knowledge, this is the first review ever written for it.
@@ -20,12 +21,10 @@ The exterior model is very detailed, with many extra features such as chocks, re
 <figcaption>The L-39's exterior model. Featuring the <a href="http://www.sim-outhouse.com/sohforums/showthread.php?94934-L39C-Albatros-Capali-zip">Hungarian Air Force "red 135" livery</a></figcaption>
 </figure>
 
-
 <figure>
 <img src="/assets/l39-exterior-front.png" alt="Picture of the l-39's exterior">
 <figcaption>Same plane and livery from the front.</figcaption>
 </figure>
-
 
 ## Interior
 
@@ -35,7 +34,6 @@ The L-39's virtual cockpit is where it really shines. Practically everything is 
 <img src="/assets/l39-interior.png" alt="Picture of the l-39's interior">
 <figcaption>Shot of the interior showing most of the clickable controls.</figcaption>
 </figure>
-
 
 # Systems
 
@@ -53,9 +51,7 @@ Excessive engine exhaust gas tempurature (>685C) will cause damage to the engine
 
 As you've probably gathered already, reading the manual is highly recommended before flying this aircraft.
 
-
 # More screenshots
-
 
 <figure>
 <img src="/assets/l39-interior-seat.png" alt="Picture of the l-39's interior">
@@ -75,4 +71,3 @@ As you've probably gathered already, reading the manual is highly recommended be
 # Download
 
 [Download link](https://drive.google.com/file/d/0B6K_xiE2GqmMNElNWHpEOTE1UE0/view?usp=sharing)
-

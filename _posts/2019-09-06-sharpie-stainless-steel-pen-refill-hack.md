@@ -6,13 +6,14 @@ title: Sharpie Stainless Steel Pen Refill Hack
 categories: []
 metadata:
   description: >-
-    If you have owned a Sharpie Stainless Steel Pen, you will know two things. The
-    first thing you'll know is that it is the most perfect pen ever invented and
-    no other pen will ever compare. The second think you'll know, or find out, is
-    that both the pen and the refills have been discontinued by Sharpie. These are
-    instructions for creating what I call the Sharpie Stainless Steel Pen
-    Frankenfill Mark I.
+    If you have owned a Sharpie Stainless Steel Pen, you will know two things.
+    The first thing you'll know is that it is the most perfect pen ever invented
+    and no other pen will ever compare. The second think you'll know, or find
+    out, is that both the pen and the refills have been discontinued by Sharpie.
+    These are instructions for creating what I call the Sharpie Stainless Steel
+    Pen Frankenfill Mark I.
   featured_image: /assets/20190906_223011-1.jpg
+published: true
 ---
 
 # Backstory
@@ -23,7 +24,7 @@ WHY SHARPIE?! WHY WOULD YOU DISCONTINUE SUCH AN EXCELLENT PRODUCT???? WHY DID YO
 
 ![](https://media.giphy.com/media/3t7RAFhu75Wwg/source.gif)
 
-_Ahem_. Anyway... after realizing that refills are now [$812.91](https://www.amazon.com/Sharpie-Stainless-1800702-Refills-1800730/dp/B00MCZXASA), I decided to try to figure out if I could find an alternative way to refill them. Below are instructions for creating what I call the Sharpie Stainless Steel Pen Frankenfill Mark I.
+*Ahem*. Anyway... after realizing that refills are now [$812.91](https://www.amazon.com/Sharpie-Stainless-1800702-Refills-1800730/dp/B00MCZXASA), I decided to try to figure out if I could find an alternative way to refill them. Below are instructions for creating what I call the Sharpie Stainless Steel Pen Frankenfill Mark I.
 
 # Stainless Steel Pen Frankenfill Mark I
 

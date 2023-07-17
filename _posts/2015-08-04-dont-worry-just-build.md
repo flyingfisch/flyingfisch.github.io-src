@@ -1,11 +1,12 @@
 ---
-title: Don't Worry, Just Code
-date: 2015-08-04 00:00:00 +0000
+title: 'Don''t Worry, Just Code'
+date: 2015-08-04T00:00:00.000Z
 categories:
-- culture
-- programming
+  - culture
+  - programming
 disqusid: dontworryjustcode1
 layout: post
+published: true
 ---
 
 Use [this chart](http://lifehacker.com/this-graphic-helps-you-pick-your-first-programming-lang-1719213677) to decide your first programming language. Hey, come back! I was just making a point. Hello?
@@ -14,7 +15,7 @@ For those of you who stayed, charts like this are just about the worst way to ch
 
 # My Saga
 
-_If you don't want to read the long personal story of my relationship with programming, you can take the elevator [another floor down](#Its-easy-to-learn-new-languages)._ 
+*If you don't want to read the long personal story of my relationship with programming, you can take the elevator [another floor down](#Its-easy-to-learn-new-languages).*
 
 <figure>
 <img src="/assets/fx9750gii.jpeg" alt="Casio fx-9750GII">
@@ -23,14 +24,14 @@ _If you don't want to read the long personal story of my relationship with progr
 
 This is a Casio fx-9750GII, the device that first introduced me to programming. It was given to me on my 14th birthday and I was overjoyed. The first thing I did was start reading the manual from page one. After getting through the calculating and graphing sections, I came across a chapter I didn't expect to see, labeled "Programming". Well, right there I decided I was going to program the thing (there was no tutorial, just a syntax guide and documentation of the built-in functions). My first program ever was named `SQRT`, and it looked something like this:
 
-~~~
+```
 ?→A
 Locate 1,1,√A
-~~~
+```
 
 It took user input, assigned it to `A`, and then printed the square root of `A` at position `1, 1` on the screen. My next program printed "Yay I can code!" over and over and over again. As much as I hate to admit it, it used `goto` instead of a `while` loop.
 
-Fast forward a couple months. I had learned from some friendly people on the [Universal Casio Forums](http://casiocalc.org/) that using `goto` was usually a bad idea, and had started using loops and subroutines to organize my code. I had also begun to realize that Casio's BASIC dialect was pretty slow for anything other than math. Since I wanted to program games for it, I started researching other ways to program calculators. After googling around a bit I learned that the hardware on my calculator was actually the same as the hardware on the fx-9860GII, which had an SDK for developing _addins_ for it in C. So I installed a third-party custom ROM with the addin feature flag set to true, and got to work learning C.
+Fast forward a couple months. I had learned from some friendly people on the [Universal Casio Forums](http://casiocalc.org/) that using `goto` was usually a bad idea, and had started using loops and subroutines to organize my code. I had also begun to realize that Casio's BASIC dialect was pretty slow for anything other than math. Since I wanted to program games for it, I started researching other ways to program calculators. After googling around a bit I learned that the hardware on my calculator was actually the same as the hardware on the fx-9860GII, which had an SDK for developing *addins* for it in C. So I installed a third-party custom ROM with the addin feature flag set to true, and got to work learning C.
 
 There was a problem, though. Writing C for that calculator was hard. Most of the default libraries that online C tutorials referenced were not available or were named differently, and the documentation for the SDK was somewhat obscure. I ended up going back to good old BASIC and optimizing the programs I wrote to try to improve their speed.
 
@@ -61,34 +62,34 @@ The fact of the matter was, I had enough general programming experience to build
 
 Take a look at this code:
 
-~~~c
+```c
 if (a == 2) {
     print("hello world");
 }
-~~~
+```
 
 Now have a look at this:
 
-~~~javascript
+```javascript
 if (a == 2) {
     console.log("hello world");
 }
-~~~
+```
 
 And this (getting a little trickier):
 
-~~~php
+```php
 if ($a == 2) {
     print("hello world");
 }
-~~~
+```
 
 The point is, knowing one language makes learning another much easier. Even with Python's different syntax, the `if` statement still works the same way.
 
-~~~python
+```python
 if a == 2:
     print("hello world")
-~~~
+```
 
 Even though the syntax has changed slightly and the curly brackets are gone, you still know what an `if` statement is and when to use it. Programming is 90% thinking and 10% typing. Knowing what to express is more important than knowing how to express it.
 
@@ -115,9 +116,8 @@ The application you write code for is actually more related to your salary than 
 
 # No one remembers you for your code
 
-One last point before wrapping up (promise!): no one is going to remember you for the language you programmed in, but they _will_ remember the products you build. No one is going to remember Mark Zuckerberg because he was a PHP whiz, they'll remember him for Facebook.
+One last point before wrapping up (promise!): no one is going to remember you for the language you programmed in, but they *will* remember the products you build. No one is going to remember Mark Zuckerberg because he was a PHP whiz, they'll remember him for Facebook.
 
 <blockquote class="pull-quote">
 Don't worry about languages, go build awesome stuff!
 </blockquote>
-

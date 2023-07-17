@@ -1,7 +1,6 @@
 import { defineConfig } from "tinacms";
 import { defaultFields } from "./templates";
 
-// Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
@@ -27,7 +26,9 @@ export default defineConfig({
         path: "_posts",
         defaultItem: () => {
           return {
-            layout: "post"
+            layout: "post",
+            author: "Mark Fischer, Jr.",
+            published: false,
           }
         },
         fields: defaultFields(),

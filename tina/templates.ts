@@ -2,6 +2,11 @@ import type { TinaField } from "tinacms";
 export function defaultFields() {
   return [
     {
+      label: "Published",
+      name: "published",
+      type: "boolean",
+    },
+    {
       label: "Post Metadata",
       name: "metadata",
       type: "object",
@@ -48,13 +53,13 @@ export function defaultFields() {
     },
     {
       type: "string",
-      name: "layout",
-      label: "Layout",
+      name: "author",
+      label: "Author",
     },
     {
       type: "string",
-      name: "author",
-      label: "Author",
+      name: "layout",
+      label: "Layout",
     },
   ] as TinaField[];
 }

@@ -14,7 +14,8 @@ layout: default
         </p>
     </div>
 
-    {% for post in site.posts %}
+    {% assign published_posts = site.posts | where: "published", "true" %}
+    {% for post in published_posts %}
     <article class="post">
         <div class="post-info">
             {% if post.author %}<strong>Author:</strong> {{ post.author }}<br>{% endif %}
@@ -32,14 +33,14 @@ layout: default
             <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
             <p>
-            {{ post.content
+                {{ post.content
                 | strip
                 | replace: '</h1>', '&#182;'
                 | replace: '</h2>', '&#182;'
                 | replace: '</p>','&#182;'
-                | strip_html
-                | truncatewords: 50
-                | replace: '&#182;', '<span class="light"> &#182;</span>'
+            | strip_html
+            | truncatewords: 50
+            | replace: '&#182;', '<span class="light"> &#182;</span>'
             }}
             </p>
         </section>

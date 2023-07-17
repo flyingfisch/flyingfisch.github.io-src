@@ -1,10 +1,11 @@
 ---
 author: 'Mark Fischer, Jr.'
 title: Setting up  automated testing with MSTest and Selenium
-date: '2018-03-20 00:00:00 +0000'
+date: 2018-03-20T00:00:00.000Z
 layout: post
 categories:
   - testing
+published: true
 ---
 
 I've started implementing automated testing on a project I'm working on using MSTest and Selenium. I've run into several issues that I couldn't find answers for online so I thought I'd document my findings here.

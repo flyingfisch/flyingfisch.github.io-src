@@ -1,9 +1,10 @@
 ---
 title: A Week in Quotes
-date: 2015-08-04 00:00:00 +0000
+date: 2015-08-04T00:00:00.000Z
 categories:
-- project
+  - project
 layout: post
+published: true
 ---
 
 This past week I have been making one [codepen a day](http://codepen.io/collection/ANqEdj/) featuring an interesting quote. Here is an example.
@@ -13,28 +14,28 @@ This past week I have been making one [codepen a day](http://codepen.io/collecti
 
 The most challenging part, and the part that spawned the whole thing, were the lines on each side of the quotation marks. The first thing you have to do is make the line. This is easy enough, we just add `border-bottom` like so:
 
-~~~scss
+```scss
 blockquote {
     &::before {
         border-bottom: 3px solid #000;
     }
 }
-~~~
+```
 
 Next, we need that line to go behind our `::before` element. We can do this by making the height of the element half of the height of the letters, the best way to do that is with `0.5em`.
 
-~~~scss
+```scss
 blockquote {
     &::before {
         border-bottom: 3px solid #000;
         height: 0.5em
     }
 }
-~~~
+```
 
 Now comes the tricky part. How do we get the line to only show on either side of the element? One way would be to give the element a background color that matches the parent background color. Unfortunately, this only works when we have a solid background color. Since we want images behind it, we need another method. The one I came up with was using a gradient, like so:
 
-~~~scss
+```scss
 blockquote {
     &::before {
         border-bottom: 3px solid #000;
@@ -42,7 +43,6 @@ blockquote {
         height: 0.5em
     }
 }
-~~~
+```
 
 Note that this is not the finished code, I am only showing the interesting properties. If you want code you can copy and paste, check out the source code [on the pen itself](http://codepen.io/flyingfisch/pen/XbOmwQ?editors=010).
-

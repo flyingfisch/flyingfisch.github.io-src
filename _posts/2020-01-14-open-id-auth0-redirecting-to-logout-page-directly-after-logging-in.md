@@ -1,6 +1,6 @@
 ---
 author: 'Mark Fischer, Jr.'
-date: '2020-01-14 07:16:36 -1100'
+date: 2020-01-14T18:16:36.000Z
 layout: post
 title: MVC website redirecting to logout page immediately after logging in
 categories:
@@ -11,8 +11,9 @@ metadata:
     authorization method on an existing MVC website to use Auth0, an OpenID
     provider. During the process of converting the website's login and logout
     routines I ran into an issue where no matter what the website would redirect
-    to the logout page immediately after hitting the login route. After much trial
-    and error I finally pinpointed the problem.
+    to the logout page immediately after hitting the login route. After much
+    trial and error I finally pinpointed the problem.
+published: true
 ---
 
 Over the past couple days I have been converting the authentication and authorization method on an existing MVC website to use [Auth0](https://auth0.com/), an [OpenID](https://openid.net/) provider. During the process of converting the website's login and logout routines I ran into an issue where no matter what the website would redirect to the logout page immediately after hitting the login route. After much trial and error I finally pinpointed the problem.

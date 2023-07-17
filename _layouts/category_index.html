@@ -5,7 +5,8 @@ layout: default
 <main class="post-list">
     <h1>Category: {{ page.category }}</h1>
 
-    {% for post in site.categories[page.category] %}
+    {% assign published_posts = site.categories[page.category] | where: "published", "true" %}
+    {% for post in published_posts %}
     <article class="post">
         <div class="post-info">
             {% if post.author %}<strong>Author:</strong> {{ post.author }}<br>{% endif %}
