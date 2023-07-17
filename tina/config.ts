@@ -25,6 +25,11 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts",
+        defaultItem: () => {
+          return {
+            layout: "post"
+          }
+        },
         fields: defaultFields(),
       }
     ],
