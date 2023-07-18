@@ -4,6 +4,7 @@ date: 2015-06-26 00:00:00 +0000
 categories:
 - culture
 layout: post
+published: false
 ---
 
 Last month, _The Verge_ published [an article][1] on the current state of the mobile web. The author laments the advent of proprietary "browsers" such as Facebook Instant Articles and Apple News, which he says were developed in response to poor mobile browser performance. This point was challenged in [Les Orchard's excellent rebuttal][2], which pointed out that ad-heavy websites like _The Verge_ are actually killing the web, not browsers.

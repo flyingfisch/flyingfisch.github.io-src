@@ -5,6 +5,7 @@ categories:
 - programming
 - frontend
 layout: post
+published: false
 ---
 
 > This post needs a lot of help. May not finish it.
@@ -28,7 +29,7 @@ Some of the concerns that each of these solutions addresses are:
 
 CRUD stands for the 4 basic data commands: Create, Read, Update, and Delete.
 When implemented on the web the HTTP verbs `POST`, `GET`, `PATCH`, and `DELETE`
-are usually used to determine the operation. REST is a [URL naming scheme][1]
+are usually used to determine the operation. REST is a [URL naming scheme](http://tools.ietf.org/html/draft-gregorio-uritemplate-05)
 intended to make URLs more self-explanatory. Here is an example of a controller
 using this architecture:
 
@@ -151,4 +152,3 @@ public class User : Controller
     }
 }
 ~~~
-  [1]:http://tools.ietf.org/html/draft-gregorio-uritemplate-05
