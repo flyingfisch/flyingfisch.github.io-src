@@ -22,11 +22,11 @@ If you have owned a Sharpie Stainless Steel Pen, you will know two things. The f
 
 WHY SHARPIE?! WHY WOULD YOU DISCONTINUE SUCH AN EXCELLENT PRODUCT???? WHY DID YOU DO THIS TO US?!
 
-![](https://media.giphy.com/media/3t7RAFhu75Wwg/source.gif)
+![](/assetshttps://media.giphy.com/media/3t7RAFhu75Wwg/source.gif)
 
 *Ahem*. Anyway... after realizing that refills are now [$812.91](https://www.amazon.com/Sharpie-Stainless-1800702-Refills-1800730/dp/B00MCZXASA), I decided to try to figure out if I could find an alternative way to refill them. Below are instructions for creating what I call the Sharpie Stainless Steel Pen Frankenfill Mark I.
 
-# Stainless Steel Pen Frankenfill Mark I
+# Stainless Steel Pen Frankenfill Mk I
 
 ## Materials
 
