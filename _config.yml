@@ -1,41 +1,40 @@
 ---
 title: Expositus
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-  values:
-    author: Mark Fischer, Jr.
-email: flyingfisch@toppagedesign.com
-description: 'My personal blog where I post about programming as well as other topics.
+description: 'My personal blog where I post about programming as well as other topics.'
 
-'
-baseurl: 
-url: https://markfischerjr.com/
+email: flyingfisch@toppagedesign.com
 twitter_username: flyingfisch_
 github_username: flyingfisch
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      author: Mark Fischer, Jr.
+
+baseurl: ''
+url: https://markfischerjr.com/
+
 exclude:
 - README.md
+
 keep_files:
 - README.md
 - ".git"
+
 markdown: kramdown
+
 redcarpet:
   extensions:
   - fenced_code_blocks
+
 kramdown:
   auto_ids: true
-paginate: "3"
+
 plugins:
 - jekyll_figure
-- jekyll-paginate
+- jekyll-paginate-v2
+
 figures:
-  dir: "/assets/figures"
+  dir: '/assets'
   enumerate: true
