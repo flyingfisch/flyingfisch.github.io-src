@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main class="post-list">
-    <h1>Category: {{ page.category }}</h1>
+    <h1 class="text-center">Category: {{ page.category }}</h1>
 
     {% assign published_posts = site.categories[page.category] | where: "published", "true" %}
     {% for post in published_posts %}

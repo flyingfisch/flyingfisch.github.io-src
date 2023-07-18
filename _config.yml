@@ -2,7 +2,7 @@
 title: Expositus
 description: 'My personal blog where I post about programming as well as other topics.'
 
-email: flyingfisch@toppagedesign.com
+email: flyingfischy@gmail.com
 twitter_username: flyingfisch_
 github_username: flyingfisch
 
@@ -30,6 +30,11 @@ redcarpet:
 
 kramdown:
   auto_ids: true
+
+pagination:
+  enabled: true
+  per_page: 3
+  sort_reverse: true
 
 plugins:
 - jekyll_figure

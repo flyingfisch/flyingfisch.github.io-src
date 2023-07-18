@@ -37,14 +37,14 @@ layout: default
 
             <p>
                 {{ post.content
-                | strip
-                | replace: '</h1>', '&#182;'
-                | replace: '</h2>', '&#182;'
-                | replace: '</p>','&#182;'
-            | strip_html
-            | truncatewords: 50
-            | replace: '&#182;', '<span class="light"> &#182;</span>'
-            }}
+                    | strip
+                    | replace: '</h1>', '&#182;'
+                    | replace: '</h2>', '&#182;'
+                    | replace: '</p>','&#182;'
+                    | strip_html
+                    | truncatewords: 50
+                    | replace: '&#182;', '<span class="light"> &#182;</span>'
+                }}
             </p>
         </section>
     </article>

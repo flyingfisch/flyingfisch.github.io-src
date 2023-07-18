@@ -436,7 +436,7 @@ footer {
     line-height: 2em;
     margin-top: 8em;
     text-align: center;
-    color: lighten($foreground, 42%);
+    color: lighten($foreground, 20%);
 
     & p {
         padding-left: 1em;
@@ -466,4 +466,31 @@ footer {
 
 .text-center {
     text-align: center;
+}
+
+.pagination-links {
+    font-family: $headerFontStack;
+    font-size: 1.4em;
+
+    color: lighten($foreground, 70);
+
+    text-align: center;
+    text-transform: uppercase;
+
+    a,
+    .disabled-link {
+        font-weight: bold;
+    }
+
+    .disabled-link {
+        color: lighten($foreground, 70);
+    }
+
+    &::before {
+        content: "❈";
+        display: block;
+        font-size: 1.5em;
+
+        margin-bottom: .8em;
+    }
 }

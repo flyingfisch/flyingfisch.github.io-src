@@ -1,21 +1,22 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 
 <main class="post-list">
     <div>
         <p style="text-align: center;">Hello, I'm Mark Fischer. I am a Digital Experience Architect at ArcBest.</p>
         <p style="text-align: center;">
-            <a href="https://github.com/flyingfisch">GitHub</a> &#8729;
-            <a href="http://codepen.io/flyingfisch/">Codepen</a> &#8729;
-            <a href="https://twitter.com/flyingfisch_">Twitter</a> &#8729;
-            <a href="https://www.linkedin.com/in/flyingfisch">LinkedIn</a> &#8729;
+            <a href="https://github.com/flyingfisch">GitHub</a> ∙
+            <a href="http://codepen.io/flyingfisch/">Codepen</a> ∙
+            <a href="https://twitter.com/flyingfisch_">Twitter</a> ∙
+            <a href="https://www.linkedin.com/in/flyingfisch">LinkedIn</a> ∙
             <a href="https://stackoverflow.com/story/markfischerjr">StackOverflow</a>
         </p>
     </div>
 
-    {% assign published_posts = site.posts | where: "published", "true" %}
-    {% for post in published_posts %}
+    {% for post in paginator.posts %}
     <article class="post">
         <div class="post-info">
             {% if post.author %}<strong>Author:</strong> {{ post.author }}<br>{% endif %}
@@ -25,8 +26,6 @@ layout: default
             {% unless post.categories == empty %}
             <strong>Categories:</strong> {{ post.categories | join: ', ' }}<br>
             {% endunless %}
-
-            {% if post.meta %}<strong>Meta:</strong> {{ post.meta }}{% endif %}
         </div>
 
         <section>
@@ -34,18 +33,32 @@ layout: default
 
             <p>
                 {{ post.content
-                | strip
-                | replace: '</h1>', '&#182;'
-                | replace: '</h2>', '&#182;'
-                | replace: '</p>','&#182;'
-            | strip_html
-            | truncatewords: 50
-            | replace: '&#182;', '<span class="light"> &#182;</span>'
-            }}
+                    | strip
+                    | replace: '</h1>', '&#182;'
+                    | replace: '</h2>', '&#182;'
+                    | replace: '</p>','&#182;'
+                    | strip_html
+                    | truncatewords: 50
+                    | replace: '&#182;', '<span class="light"> &#182;</span>'
+                }}
             </p>
         </section>
     </article>
     {% endfor %}
 
-    <h1 style="text-align: center;"><a href="categories.html">Categories</a></h1>
+    <div class="pagination-links">
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts</a>
+        {% else %}
+        <span class="disabled-link">Older Posts</span>
+        {% endif %}
+        ∙
+        <a href="categories.html">Categories</a>
+        ∙
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer Posts</a>
+        {% else %}
+        <span class="disabled-link">Newer Posts</span>
+        {% endif %}
+    </div>
 </main>
