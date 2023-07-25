@@ -8,4 +8,11 @@ layout: post
 published: false
 ---
 
-![](</assets/dayton-airshow/2023-07-22 005.jpg>)
+<figure>
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 005.jpg" alt="Red Bull aerobatics plane performing a spin">
+<figcaption>
+Red Bull aerobatics plane performing a spin<br>
+Canon 40D | 50mm f1.8<br>
+f13 | 1/1000 sec | ISO 400
+</figcaption>
+</figure>
