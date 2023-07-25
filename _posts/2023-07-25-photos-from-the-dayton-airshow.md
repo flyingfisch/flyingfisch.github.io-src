@@ -5,7 +5,7 @@ categories:
   - photography
 author: 'Mark Fischer, Jr.'
 layout: post
-published: true
+published: false
 ---
 
 <figure>
