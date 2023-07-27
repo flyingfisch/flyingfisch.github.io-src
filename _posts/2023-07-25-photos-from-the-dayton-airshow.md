@@ -6,6 +6,8 @@ categories:
 author: 'Mark Fischer, Jr.'
 layout: post
 published: true
+metadata:
+  featured_image: /assets/dayton-airshow/2023-07-22 740.jpg
 ---
 
 I'm starting to get into photography and took some photos this past weekend at the Dayton airshow.
