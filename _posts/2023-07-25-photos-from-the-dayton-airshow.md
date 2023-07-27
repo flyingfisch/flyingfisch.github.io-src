@@ -9,6 +9,15 @@ published: false
 ---
 
 <figure>
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 750.jpg" alt="Thunderbirds delta formation burst">
+<figcaption>
+Thunderbirds delta formation burst<br>
+Canon 40D | 50mm f1.8<br>
+f8 | 1/4000 sec | ISO 400
+</figcaption>
+</figure>
+
+<figure>
 <img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow//2023-07-22 531_01.jpg" alt="Thunderbirds delta formation flyby">
 <figcaption>
 Thunderbirds delta formation flyby<br>
