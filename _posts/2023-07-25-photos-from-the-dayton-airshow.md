@@ -8,6 +8,8 @@ layout: post
 published: true
 ---
 
+I'm starting to get into photography and took some photos this past weekend at the Dayton airshow.
+
 <figure>
 <img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 750.jpg" alt="Thunderbirds delta formation burst">
 <figcaption>
