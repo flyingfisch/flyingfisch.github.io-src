@@ -56,6 +56,15 @@ f10 | 1/1250 sec | ISO 400
 </figure>
 
 <figure>
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 655.jpg" alt="Thunderbirds diamond flyover">
+<figcaption>
+Thunderbirds diamond flyover<br>
+Canon 40D | 50mm f1.8<br>
+f14 | 1/1250 sec | ISO 400
+</figcaption>
+</figure>
+
+<figure>
 <img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 501_01.jpg" alt="Thunderbirds echelon formation">
 <figcaption>
 Thunderbirds echelon formation<br>
