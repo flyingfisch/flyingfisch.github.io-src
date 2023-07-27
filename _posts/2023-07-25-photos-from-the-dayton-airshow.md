@@ -20,9 +20,18 @@ f8 | 1/4000 sec | ISO 400
 </figure>
 
 <figure>
-<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 531_01.jpg" alt="Thunderbirds delta formation flyby">
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 740.jpg" alt="Thunderbirds delta">
 <figcaption>
-Thunderbirds delta formation flyby<br>
+Thunderbirds delta<br>
+Canon 40D | 50mm f1.8<br>
+f8 | 1/4000 sec | ISO 400
+</figcaption>
+</figure>
+
+<figure>
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 531_01.jpg" alt="Thunderbirds diamond formation flyby">
+<figcaption>
+Thunderbirds diamond formation flyby<br>
 Canon 40D | 50mm f1.8<br>
 f10 | 1/1250 sec | ISO 400
 </figcaption>
