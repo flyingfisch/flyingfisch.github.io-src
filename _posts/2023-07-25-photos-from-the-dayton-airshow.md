@@ -24,7 +24,7 @@ f8 | 1/4000 sec | ISO 400
 <figcaption>
 Thunderbirds delta<br>
 Canon 40D | 50mm f1.8<br>
-f8 | 1/4000 sec | ISO 400
+f9 | 1/1600 sec | ISO 400
 </figcaption>
 </figure>
 
@@ -43,6 +43,15 @@ f10 | 1/1250 sec | ISO 400
 Thunderbirds echelon formation<br>
 Canon 40D | 50mm f1.8<br>
 f11 | 1/1250 sec | ISO 400
+</figcaption>
+</figure>
+
+<figure>
+<img src="https://assets.tina.io/7fc65719-80f5-4e2c-8667-53d5b6bc56ec/dayton-airshow/2023-07-22 075.jpg" alt="DC-3, Flagship Detroit">
+<figcaption>
+DC-3, Flagship Detroit<br>
+Canon 40D | 50mm f1.8<br>
+f10 | 1/2000 sec | ISO 400
 </figcaption>
 </figure>
 
