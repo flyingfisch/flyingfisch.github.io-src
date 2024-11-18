@@ -20,11 +20,15 @@ This is not a complete glossary. Please drop a comment if there are errors or te
 
 **The Competition:** MI5, internal counter-espionage. Roughly similar to the American FBI.
 
+**Funnies:** Spies. Apparently Mendel uses that term [because he is an outsider](https://literature.stackexchange.com/a/26552) and not a member of the Circus himself.
+
 **Hood:** An agent who engages in illegal activity.
 
 **Janitor:** Circus headquarters staff.
 
 **Lamplighter:** A surveillance agent or courier.
+
+**Legman:** An assistant to a secret agent. Someone who plays a supporting role to an agent during a mission. *Note: I couldn't find a definition anywhere for this one so what I have here is a guess based on context.*
 
 **Mother:** Trusted typist or secretary at Circus headquarters.
 
